@@ -1,7 +1,11 @@
 {
   "__resolveType": "site/apps/deco/vtex.ts",
   "defaultSegment": {
-    "channelPrivacy": "public"
+    "channelPrivacy": "public",
+    "currencyCode": "BRL",
+    "currencySymbol": "R$",
+    "countryCode": "BRA",
+    "cultureInfo": "pt-BR"
   },
   "platform": "vtex",
   "account": "vidamina",
@@ -14,5 +18,5 @@
     "__resolveType": "website/loaders/secret.ts",
     "encrypted": "56a4766f9350b2c424afaeed0afdcb4eb596a8c2a7fe8eae8c823b614a9821d8"
   },
-  "salesChannel": 1
+  "salesChannel": "defaultSegment"
 }
