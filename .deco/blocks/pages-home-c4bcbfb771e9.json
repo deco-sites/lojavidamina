@@ -193,10 +193,17 @@
       "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "products": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
             "ids": [
-              "21"
+              "21",
+              null
+            ],
+            "productIds": [
+              "3",
+              "21",
+              "25",
+              "29"
             ]
           }
         },
