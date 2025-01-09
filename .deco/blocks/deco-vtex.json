@@ -1,0 +1,18 @@
+{
+  "__resolveType": "site/apps/deco/vtex.ts",
+  "defaultSegment": {
+    "channelPrivacy": "public"
+  },
+  "platform": "vtex",
+  "account": "vidamina",
+  "publicUrl": "proxy.usevidamina.com.br",
+  "appToken": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "71871d0b86608658587d53be33b1016b1a26a440028e72297fb8df432465528e744c1e465535dda3428c9794a2823740b898bbfeebe3e6320d829a1996a01a3e5e709938651f721d0e617f8cbf285de5702f99ea97d95fd35e4986d7f52ef8b123092e59af5d713b649bf906faae51daa150e0841c7a526eeaf15b8b5dcdecc7e06b6b2cdf60563e82b376775e1cd712"
+  },
+  "appKey": {
+    "__resolveType": "website/loaders/secret.ts",
+    "encrypted": "56a4766f9350b2c424afaeed0afdcb4eb596a8c2a7fe8eae8c823b614a9821d8"
+  },
+  "salesChannel": 1
+}
