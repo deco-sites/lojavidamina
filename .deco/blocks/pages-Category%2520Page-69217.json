@@ -1,6 +1,6 @@
 {
   "name": "Category Page",
-  "path": "/*",
+  "path": "/category/*",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
