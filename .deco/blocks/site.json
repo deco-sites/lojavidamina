@@ -35,16 +35,22 @@
   ],
   "routes": [
     {
-      "__resolveType": "shopify/loaders/proxy.ts",
-      "extraPathsToProxy": [],
-      "includeSiteMap": [],
-      "excludePathsFromDecoSiteMap": []
-    },
-    {
       "__resolveType": "website/loaders/pages.ts"
     },
     {
       "__resolveType": "website/loaders/redirects.ts"
+    },
+    {
+      "__resolveType": "vtex/loaders/proxy.ts",
+      "extraPathsToProxy": [],
+      "includeSiteMap": [],
+      "excludePathsFromDecoSiteMap": [],
+      "includeScriptsToHead": {
+        "includes": []
+      },
+      "includeScriptsToBody": {
+        "includes": []
+      }
     }
   ],
   "caching": {
@@ -53,12 +59,15 @@
   "commerce": {
     "platform": "other"
   },
-  "platform": "shopify",
+  "platform": "vtex",
   "__resolveType": "site/apps/site.ts",
   "firstByteThresholdMS": false,
   "abTesting": {
     "replaces": [],
     "includeScriptsToHead": {
+      "includes": []
+    },
+    "includeScriptsToBody": {
       "includes": []
     }
   },
