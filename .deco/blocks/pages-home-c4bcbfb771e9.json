@@ -53,11 +53,10 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "sort": "price:desc",
-            "fuzzy": "automatic",
-            "query": "antioxidante",
-            "count": 2,
-            "hideUnavailableItems": true
+            "ids": [
+              "5",
+              "19"
+            ]
           }
         },
         "title": "Conheça nossos produtos"
