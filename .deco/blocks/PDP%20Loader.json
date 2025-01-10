@@ -5,7 +5,7 @@
       "__resolveType": "website/functions/requestToParam.ts"
     },
     "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
-    "indexingSkus": true
+    "indexingSkus": false
   },
   "extensions": [],
   "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts"
