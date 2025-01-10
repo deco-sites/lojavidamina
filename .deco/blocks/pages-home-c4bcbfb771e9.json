@@ -193,26 +193,13 @@
       "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "products": {
-          "__resolveType": "vtex/loaders/legacy/productList.ts",
-          "props": {
-            "ids": [
-              "21"
-            ]
-          }
-        },
-        "title": "Nossos produtos"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "ids": [
-              "21"
-            ]
+            "sort": "price:desc",
+            "fuzzy": "automatic",
+            "query": "antioxidante",
+            "count": 2,
+            "hideUnavailableItems": true
           }
         }
       }
