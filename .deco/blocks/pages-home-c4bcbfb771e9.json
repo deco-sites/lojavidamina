@@ -55,8 +55,8 @@
           "props": {
             "sort": "price:desc",
             "fuzzy": "automatic",
-            "query": "suplemento",
-            "count": 10
+            "query": "suplemento, suplementação",
+            "count": 100
           }
         },
         "title": "Conheça nossos produtos"
