@@ -59,7 +59,8 @@
             "count": 100
           }
         },
-        "title": "Conheça nossos produtos"
+        "title": "Conheça nossos produtos",
+        "cta": "/products"
       }
     },
     {
@@ -67,7 +68,6 @@
       "section": {
         "__resolveType": "site/sections/Category/CategoryGrid.tsx",
         "title": "Categorias",
-        "cta": "/all",
         "items": [
           {
             "label": "Vida Leve",
