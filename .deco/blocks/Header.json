@@ -16,51 +16,55 @@
   },
   "navItems": [
     {
+      "children": [],
+      "@type": "SiteNavigationElement",
+      "url": "/login",
+      "name": "Acessar conta",
+      "image": null
+    },
+    {
+      "@type": "SiteNavigationElement",
+      "url": "/categories",
+      "name": "Categorias",
       "children": [
         {
           "image": [],
           "children": [],
-          "name": "Hello"
+          "name": "Vida Leve",
+          "url": "/category/vida-leve"
         },
         {
           "image": [],
           "children": [],
-          "name": "World"
+          "name": "Vida Imune",
+          "url": "/category/vida-imune"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Ativa",
+          "url": "/category/vida-ativa"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Pura",
+          "url": "/category/vida-pura"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Calma",
+          "url": "/category/vida-calma"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Plena",
+          "url": "/category/vida-plena"
         }
       ],
-      "@type": "SiteNavigationElement",
-      "url": "/deals",
-      "name": "Deals"
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "url": "/valentines-day",
-      "name": "Valentine's Day",
-      "children": []
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "url": "/women",
-      "name": "Women",
-      "children": []
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "url": "/men",
-      "name": "Men",
-      "children": []
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "url": "/clearance",
-      "name": "Clearance",
-      "children": []
-    },
-    {
-      "@type": "SiteNavigationElement",
-      "url": "/activities",
-      "name": "Activities",
-      "children": []
+      "image": null
     }
   ],
   "loading": "eager"
