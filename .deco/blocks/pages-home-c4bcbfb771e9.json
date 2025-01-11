@@ -55,7 +55,7 @@
           "props": {
             "sort": "price:desc",
             "fuzzy": "automatic",
-            "query": "suplemento, suplementação",
+            "query": "suplemento, suplementação, PeptiStrong",
             "count": 100
           }
         },
