@@ -136,6 +136,7 @@ function Carousel({ images = [], preload, interval }: Props) {
         "sm:grid-cols-[112px_1fr_112px] sm:min-h-min",
         "w-screen",
       )}
+      style="max-width:100%"
     >
       <div class="col-span-full row-span-full">
         <Slider class="carousel carousel-center w-full gap-6">

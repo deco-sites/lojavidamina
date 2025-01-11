@@ -41,7 +41,7 @@ function Footer({
   return (
     <footer
       class="px-5 sm:px-0 mt-5 sm:mt-10"
-      style={{ backgroundColor: "#EFF0F0" }}
+      style={{ backgroundColor: "#EDE707" }}
     >
       <div class="container flex flex-col gap-5 sm:gap-10 py-10">
         <ul class="grid grid-flow-row sm:grid-flow-col gap-6 ">
@@ -79,7 +79,7 @@ function Footer({
           </ul>
           <ul class="flex flex-wrap gap-2">
             {paymentMethods.map(({ image, alt }) => (
-              <li class="h-8 w-10 border border-base-100 rounded flex justify-center items-center">
+              <li style="border-color:transparent" class="h-8 w-10 border border-base-100 rounded flex justify-center items-center">
                 <Image
                   src={image}
                   alt={alt}
@@ -92,7 +92,7 @@ function Footer({
           </ul>
         </div>
 
-        <hr class="w-full text-base-400" />
+        <hr style="border-color:#000" class="w-full text-base-400" />
 
         <div class="grid grid-flow-row sm:grid-flow-col gap-8">
           <ul class="flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center">

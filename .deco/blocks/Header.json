@@ -23,48 +23,40 @@
       "image": null
     },
     {
-      "@type": "SiteNavigationElement",
-      "url": "/categories",
-      "name": "Categorias",
-      "children": [
-        {
-          "image": [],
-          "children": [],
-          "name": "Vida Leve",
-          "url": "/category/vida-leve"
-        },
-        {
-          "image": [],
-          "children": [],
-          "name": "Vida Imune",
-          "url": "/category/vida-imune"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Ativa",
-          "url": "/category/vida-ativa"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Pura",
-          "url": "/category/vida-pura"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Calma",
-          "url": "/category/vida-calma"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Plena",
-          "url": "/category/vida-plena"
-        }
-      ],
+      "url": "/category/vida-leve",
+      "name": "Vida Leve",
+      "children": [],
       "image": null
+    },
+    {
+      "children": [],
+      "image": null,
+      "name": "Vida Imune",
+      "url": "/category/vida-imune"
+    },
+    {
+      "children": [],
+      "image": null,
+      "name": "Vida Ativa",
+      "url": "/category/vida-ativa"
+    },
+    {
+      "children": [],
+      "image": null,
+      "name": "Vida Pura",
+      "url": "/category/vida-pura"
+    },
+    {
+      "children": [],
+      "image": null,
+      "name": "Vida Calma",
+      "url": "/category/vida-calma"
+    },
+    {
+      "children": [],
+      "image": null,
+      "name": "Vida Plena",
+      "url": "/category/vida-plena"
     }
   ],
   "loading": "eager"

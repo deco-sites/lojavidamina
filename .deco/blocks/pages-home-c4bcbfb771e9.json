@@ -55,7 +55,7 @@
           "props": {
             "sort": "price:desc",
             "fuzzy": "automatic",
-            "query": "suplemento, suplementação, PeptiStrong",
+            "query": "cápsula, suplemento, suplementação, PeptiStrong",
             "count": 100
           }
         },
@@ -65,64 +65,39 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "title": "Vida Imune",
-        "products": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-          "props": {
-            "sort": "price:desc",
-            "collection": "142",
-            "count": 100
-          }
-        }
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "title": "Vida Plena",
-        "products": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-          "props": {
-            "sort": "price:desc",
-            "count": 100,
-            "collection": "144"
-          }
-        }
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Category/CategoryGrid.tsx",
-        "title": "Departments",
+        "title": "Categorias",
         "cta": "/all",
         "items": [
           {
-            "label": "Men",
-            "href": "/men",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/38c33c9f-14a1-4048-973b-dc2a75caf1fa"
+            "label": "Vida Leve",
+            "href": "/category/vida-leve",
+            "image": "https://data.decoassets.com/lojavidamina/aaea1b25-f517-49c4-baa6-b45455d1b275/VIDAMINA---POUCH---Vida-Leve.png"
           },
           {
-            "href": "/women",
-            "label": "Women",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/f6bea2b8-b248-4b42-9246-6e924a0acc8b"
+            "href": "/category/vida-imune",
+            "label": "Vida Imune",
+            "image": "https://data.decoassets.com/lojavidamina/31c84460-4b96-4666-b7fa-8946dc9a9d17/VIDAMINA---POUCH---Vida-Imune.png"
           },
           {
-            "href": "/kids",
-            "label": "Kids",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/1b0ecaa2-9a13-4de2-bf17-5196948ed128"
+            "href": "/category/vida-ativa",
+            "label": "Vida Ativa",
+            "image": "https://data.decoassets.com/lojavidamina/3bdfd27a-e9a7-4ee7-a0af-d643992e93b5/VIDAMINA---POUCH---Vida-Ativa.png"
           },
           {
-            "href": "/accessories",
-            "label": "Accessories",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/92129655-fe40-4b29-8fdb-e7f71e67a5d1"
+            "href": "/category/vida-pura",
+            "label": "Vida Pura",
+            "image": "https://data.decoassets.com/lojavidamina/f549b996-d7f8-43fc-a2e8-ebe2205ce576/VIDAMINA---POUCH---Vida-Pura.png"
           },
           {
-            "href": "/home-and-living",
-            "label": "Home & Living",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/d0433c00-cd26-4638-b519-0cb64b9f82e8"
+            "href": "/category/vida-calma",
+            "label": "Vida Calma",
+            "image": "https://data.decoassets.com/lojavidamina/dec0ad42-4a2d-4759-ba7b-c572c08de177/VIDAMINA---POUCH---Vida-Calma.png"
+          },
+          {
+            "href": "/category/vida-plena",
+            "label": "Vida Plena",
+            "image": "https://data.decoassets.com/lojavidamina/0ee73c90-65bd-4995-84fe-f7b58261c75b/VIDAMINA---POUCH---Vida-Plena.png"
           }
         ]
       }
@@ -131,14 +106,14 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
-        "label": "Sign up",
-        "placeholder": "Email address",
+        "label": "Inscreva-me",
+        "placeholder": "email@exemplo.com",
         "empty": {
-          "title": "Get top deals, latest trends, and more.",
-          "description": "Receive our news and promotions in advance. Enjoy and get 10% off your first purchase. For more information click here."
+          "title": "Inscreva-se e recebe novidades exclusivas",
+          "description": "Inscreva-se no formulário ao lado e receba em primeira mão novidades sobre os nossos suplementos:"
         },
         "success": {
-          "title": "Thank you for subscribing!",
+          "title": "Obrigado por se inscrever!",
           "description": "You’re now signed up to receive the latest news, trends, and exclusive promotions directly to your inbox. Stay tuned!"
         },
         "failed": {

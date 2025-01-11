@@ -1,87 +1,6 @@
 {
   "__resolveType": "site/sections/Footer/Footer.tsx",
-  "links": [
-    {
-      "title": "Our Company",
-      "children": [
-        {
-          "title": "About us",
-          "href": "#"
-        },
-        {
-          "title": "Our blog",
-          "href": "#"
-        },
-        {
-          "title": "Stores",
-          "href": "#"
-        },
-        {
-          "title": "Work with us",
-          "href": "#"
-        }
-      ],
-      "href": "#"
-    },
-    {
-      "title": "Orders & Purchases",
-      "href": "#",
-      "children": [
-        {
-          "title": "Check order status",
-          "href": "#"
-        },
-        {
-          "title": "Return and exchanges",
-          "href": "#"
-        },
-        {
-          "title": "Product retail",
-          "href": "#"
-        },
-        {
-          "title": "Gift cards",
-          "href": "#"
-        }
-      ]
-    },
-    {
-      "title": "Support & Services",
-      "href": "#",
-      "children": [
-        {
-          "title": "Support Center",
-          "href": "#"
-        },
-        {
-          "title": "Schedule a service",
-          "href": "#"
-        },
-        {
-          "title": "Contact us",
-          "href": "#"
-        }
-      ]
-    },
-    {
-      "title": "Support & Services",
-      "children": [
-        {
-          "title": "Support Center",
-          "href": "#"
-        },
-        {
-          "title": "Schedule a service",
-          "href": "#"
-        },
-        {
-          "title": "Contact us",
-          "href": "#"
-        }
-      ],
-      "href": "#"
-    }
-  ],
+  "links": [],
   "social": [
     {
       "alt": "facebook",
@@ -150,18 +69,9 @@
   ],
   "policies": [
     {
-      "title": "Privacy Policy",
-      "href": "#"
-    },
-    {
-      "title": "Terms and Conditions",
-      "href": "#"
-    },
-    {
-      "title": "Cookies Policy",
+      "title": "Política de Privacidade",
       "href": "#"
     }
   ],
-  "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/f1faab73-e4ff-4037-b7c4-5d02bd0b1209",
-  "trademark": "TM & © 2023 Deco Storefront, Inc."
+  "logo": "https://data.decoassets.com/lojavidamina/ed0e8580-e634-42e9-8661-cc64a888f894/vidamina---logo-preta-1.png"
 }
