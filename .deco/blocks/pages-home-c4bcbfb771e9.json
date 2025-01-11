@@ -53,10 +53,9 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "ids": [
-              "5",
-              "19"
-            ]
+            "sort": "price:desc",
+            "collection": "138",
+            "count": 10
           }
         },
         "title": "Conheça nossos produtos"
