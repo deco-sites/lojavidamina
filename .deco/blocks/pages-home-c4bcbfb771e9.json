@@ -54,7 +54,8 @@
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
             "sort": "price:desc",
-            "collection": "138",
+            "fuzzy": "automatic",
+            "query": "suplemento",
             "count": 10
           }
         },
