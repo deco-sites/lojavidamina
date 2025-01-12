@@ -49,7 +49,21 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Product/Wishlist.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+          "count": 10,
+          "sort": "price:desc",
+          "fuzzy": "automatic",
+          "selectedFacets": []
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "title": "Conheça nossos produtos",
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
@@ -59,7 +73,6 @@
             "count": 100
           }
         },
-        "title": "Conheça nossos produtos",
         "cta": "/products"
       }
     },

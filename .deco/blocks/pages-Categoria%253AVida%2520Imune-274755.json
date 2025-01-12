@@ -1,6 +1,8 @@
 {
-  "name": "Categoria:Vida Ativa",
-  "path": "/category/vida-ativa",
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -25,7 +27,7 @@
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
             "sort": "price:desc",
-            "collection": "140",
+            "collection": "142",
             "count": 100
           }
         }
@@ -58,8 +60,6 @@
       }
     }
   ],
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
-  "__resolveType": "website/pages/Page.tsx"
+  "name": "Categoria:Vida Imune",
+  "path": "/category/vida-imune"
 }
