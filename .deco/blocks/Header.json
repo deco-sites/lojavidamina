@@ -17,22 +17,15 @@
   "navItems": [
     {
       "children": [],
-      "@type": "SiteNavigationElement",
-      "url": "/login",
-      "name": "Acessar conta",
-      "image": null
-    },
-    {
       "url": "/category/vida-leve",
       "name": "Vida Leve",
-      "children": [],
       "image": null
     },
     {
-      "children": [],
-      "image": null,
+      "url": "/category/vida-imune",
       "name": "Vida Imune",
-      "url": "/category/vida-imune"
+      "children": [],
+      "image": null
     },
     {
       "children": [],
