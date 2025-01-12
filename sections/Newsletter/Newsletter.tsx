@@ -42,10 +42,10 @@ function Notice({ title, description }: {
 }) {
   return (
     <div class="flex flex-col justify-center items-center sm:items-start gap-4">
-      <span class="text-3xl font-semibold text-center sm:text-start">
+      <span style="color:#231F20;" class="text-3xl font-semibold text-center sm:text-start">
         {title}
       </span>
-      <span class="text-sm font-normal text-base-400 text-center sm:text-start">
+      <span style="color:#231F20;" class="text-sm font-normal text-base-400 text-center sm:text-start">
         {description}
       </span>
     </div>
@@ -73,7 +73,7 @@ function Newsletter({
 }: SectionProps<typeof loader, typeof action>) {
   if (status === "success" || status === "failed") {
     return (
-      <Section.Container class="bg-base-200">
+      <Section.Container class="bg-base-200" style="background-color:#F6F1E7;">
         <div class="p-14 flex flex-col sm:flex-row items-center justify-center gap-5 sm:gap-10">
           <Icon
             size={80}
@@ -86,7 +86,7 @@ function Newsletter({
     );
   }
   return (
-    <Section.Container class="bg-base-200">
+    <Section.Container class="bg-base-200" style="background-color:#F6F1E7;">
       <div class="p-14 grid grid-flow-row sm:grid-cols-2 gap-10 sm:gap-20 place-items-center">
         <Notice {...empty} />
 
@@ -103,8 +103,8 @@ function Newsletter({
             placeholder={placeholder}
           />
 
-          <button class="btn btn-primary" type="submit">
-            <span class="[.htmx-request_&]:hidden inline">
+          <button class="btn btn-primary" type="submit" style="background-color:#231F20;border-color:#231F20;">
+            <span class="[.htmx-request_&]:hidden inline" style="color:#F6F1E7;">
               {label}
             </span>
             <span class="[.htmx-request_&]:inline hidden loading loading-spinner" />
