@@ -52,9 +52,10 @@
         "__resolveType": "site/sections/Product/Wishlist.tsx",
         "page": {
           "__resolveType": "vtex/loaders/product/wishlist.ts",
-          "count": 10,
+          "count": 3,
           "offset": 1
-        }
+        },
+        "startingPage": 1
       }
     },
     {
