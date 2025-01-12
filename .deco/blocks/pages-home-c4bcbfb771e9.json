@@ -53,7 +53,7 @@
         "page": {
           "__resolveType": "vtex/loaders/product/wishlist.ts",
           "count": 10,
-          "offset": 0
+          "offset": 1
         }
       }
     },
