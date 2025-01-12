@@ -16,8 +16,15 @@
     },
     {
       "__resolveType": "site/sections/Product/ProductShelf.tsx",
-      "title": "Oh no! You are offline!",
-      "products": null,
+      "title": "Você está offline!",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "sort": "price:desc",
+          "collection": "138",
+          "count": 100
+        }
+      },
       "description": "Maybe take some time to explore"
     },
     {
