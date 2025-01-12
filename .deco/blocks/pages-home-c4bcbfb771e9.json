@@ -49,18 +49,6 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Product/Wishlist.tsx",
-        "page": {
-          "__resolveType": "vtex/loaders/product/wishlist.ts",
-          "count": 3,
-          "offset": 1
-        },
-        "startingPage": 1
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "title": "Conheça nossos produtos",
         "products": {
