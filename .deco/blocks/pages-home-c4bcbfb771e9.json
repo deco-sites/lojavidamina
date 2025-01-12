@@ -51,11 +51,9 @@
       "section": {
         "__resolveType": "site/sections/Product/Wishlist.tsx",
         "page": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+          "__resolveType": "vtex/loaders/product/wishlist.ts",
           "count": 10,
-          "sort": "price:desc",
-          "fuzzy": "automatic",
-          "selectedFacets": []
+          "offset": 0
         }
       }
     },
