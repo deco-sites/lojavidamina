@@ -143,6 +143,7 @@
   "__resolveType": "website/pages/Page.tsx",
   "path": "/",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Suplementos sob medida para você"
   }
 }
