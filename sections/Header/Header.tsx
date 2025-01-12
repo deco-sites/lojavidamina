@@ -91,6 +91,7 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
 
         <div class="flex gap-4 place-self-end">
           <Bag />
+          <Bag />
         </div>
       </div>
 
