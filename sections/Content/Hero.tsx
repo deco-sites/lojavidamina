@@ -58,6 +58,7 @@ export default function HeroFlats({
           >
             <div
               class="inline-block text-[80px] leading-[100%] font-medium tracking-[-2.4px]"
+              style="font-size:48px;"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
