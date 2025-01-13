@@ -210,7 +210,7 @@ function Result(props: SectionProps<typeof loader>) {
   });
   const results = (
     <span class="text-sm font-normal">
-      {page.pageInfo.recordPerPage} of {page.pageInfo.records} results
+      {page.pageInfo.recordPerPage} de {page.pageInfo.records} resultados
     </span>
   );
   const sortBy = sortOptions.length > 0 && (
@@ -232,7 +232,7 @@ function Result(props: SectionProps<typeof loader>) {
                     <div class="bg-base-100 flex flex-col h-full divide-y overflow-y-hidden">
                       <div class="flex justify-between items-center">
                         <h1 class="px-4 py-3">
-                          <span class="font-medium text-2xl">Filters</span>
+                          <span class="font-medium text-2xl">Filtros</span>
                         </h1>
                         <label class="btn btn-ghost" for={controls}>
                           <Icon id="close" />
@@ -251,7 +251,7 @@ function Result(props: SectionProps<typeof loader>) {
                     </div>
 
                     <label class="btn btn-ghost" for={controls}>
-                      Filters
+                      Filtros
                     </label>
                   </div>
                 </Drawer>
@@ -261,7 +261,7 @@ function Result(props: SectionProps<typeof loader>) {
                 {device === "desktop" && (
                   <aside class="place-self-start flex flex-col gap-9">
                     <span class="text-base font-semibold h-12 flex items-center">
-                      Filters
+                      Filtros
                     </span>
 
                     <Filters filters={filters} />
