@@ -130,28 +130,7 @@ function ProductCard({
           />
         </a>
 
-        {/* Wishlist button */}
-        <div class="absolute top-0 left-0 w-full flex items-center justify-between">
-          {/* Notify Me */}
-          <span
-            class={clx(
-              "text-sm/4 font-normal text-black bg-error bg-opacity-15 text-center rounded-badge px-2 py-1",
-              inStock && "opacity-0",
-            )}
-          >
-            Notify me
-          </span>
-
-          {/* Discounts */}
-          <span
-            class={clx(
-              "text-sm/4 font-normal text-black bg-primary bg-opacity-15 text-center rounded-badge px-2 py-1",
-              (percent < 1 || !inStock) && "opacity-0",
-            )}
-          >
-            {percent} % off
-          </span>
-        </div>
+        {/* Wishlist button - arquivo wishlist_button_deco */}
 
         <div class="absolute bottom-0 right-0">
           <WishlistButton item={item} variant="icon" />
