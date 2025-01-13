@@ -209,8 +209,11 @@ function Result(props: SectionProps<typeof loader>) {
     },
   });
   const results = (
+    // <span class="text-sm font-normal">
+    //   {page.pageInfo.recordPerPage} de {page.pageInfo.records} resultados
+    // </span>
     <span class="text-sm font-normal">
-      {page.pageInfo.recordPerPage} de {page.pageInfo.records} resultados
+      {page.pageInfo.records} {(page.pageInfo.records == 1) ? 'resultado' : 'resultados'}
     </span>
   );
   const sortBy = sortOptions.length > 0 && (
