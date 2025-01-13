@@ -229,7 +229,7 @@ export default function Cart(
                       </output>
                     </div>
                     <span class="text-sm text-base-300">
-                      Fees and shipping will be calculated at checkout
+                      Taxas e frete serão calculados no checkout
                     </span>
                   </div>
 
@@ -240,7 +240,7 @@ export default function Cart(
                       hx-on:click={useScript(sendBeginCheckoutEvent)}
                     >
                       <span class="[.htmx-request_&]:hidden">
-                        Begin Checkout
+                        Iniciar Checkout
                       </span>
                       <span class="[.htmx-request_&]:inline hidden loading loading-spinner" />
                     </a>
