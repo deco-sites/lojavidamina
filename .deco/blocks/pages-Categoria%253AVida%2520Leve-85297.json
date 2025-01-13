@@ -23,6 +23,22 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "desktop": "https://data.decoassets.com/lojavidamina/059c86d4-d440-44d0-9680-08bd59da6801/featured.png",
+              "mobile": "https://data.decoassets.com/lojavidamina/059c86d4-d440-44d0-9680-08bd59da6801/featured.png"
+            },
+            "title": "Vida Leve",
+            "subtitle": "Lorem Ipsum dolor"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
@@ -32,6 +48,16 @@
             "count": 100
           }
         }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Hero.tsx",
+        "image": "https://data.decoassets.com/lojavidamina/059c86d4-d440-44d0-9680-08bd59da6801/featured.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "placement": "right",
+        "title": "<p>Frase sobre Vida Leve</p>"
       }
     },
     {
