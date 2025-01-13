@@ -139,7 +139,7 @@ function PageResult(props: SectionProps<typeof loader>) {
                 <Icon id="chevron-right" class="rotate-180" />
               </a>
               <span class="btn btn-ghost join-item">
-                Page {zeroIndexedOffsetPage + 1}
+                Página {zeroIndexedOffsetPage + 1}
               </span>
               <a
                 rel="next"
