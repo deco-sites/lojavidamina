@@ -2,7 +2,7 @@
   "__resolveType": "site/sections/Header/Header.tsx",
   "alerts": [],
   "searchbar": {
-    "placeholder": "What are you looking for?",
+    "placeholder": "O que está procurando?",
     "loader": {
       "__resolveType": "resolved"
     }

@@ -31,7 +31,7 @@ export interface Props {
 function NotFound() {
   return (
     <div class="w-full flex justify-center items-center py-10">
-      <span>Not Found!</span>
+      <span>Não encontrado!</span>
     </div>
   );
 }
@@ -81,7 +81,7 @@ function PageResult(props: SectionProps<typeof loader>) {
           hx-get={partialPrev}
         >
           <span class="inline [.htmx-request_&]:hidden">
-            Show Less
+            Ver menos
           </span>
           <span class="loading loading-spinner hidden [.htmx-request_&]:block" />
         </a>
@@ -121,7 +121,7 @@ function PageResult(props: SectionProps<typeof loader>) {
                 hx-get={partialNext}
               >
                 <span class="inline [.htmx-request_&]:hidden">
-                  Show More
+                  Ver mais
                 </span>
                 <span class="loading loading-spinner hidden [.htmx-request_&]:block" />
               </a>
