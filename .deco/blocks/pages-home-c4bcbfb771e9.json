@@ -69,7 +69,7 @@
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
               "__resolveType": "site/sections/Category/CategoryGrid.tsx",
-              "title": "Categorias",
+              "title": "Nossas linhas",
               "items": [
                 {
                   "label": "Vida Leve",
