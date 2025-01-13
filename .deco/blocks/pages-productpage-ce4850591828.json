@@ -40,6 +40,22 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts",
+          "crossSelling": "similars",
+          "count": 4,
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        },
+        "title": "Veja também"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
         "empty": {
           "title": "Inscreva-se e recebe novidades exclusivas",
