@@ -224,7 +224,7 @@ function ProductCard({
                 "btn-error hover:!text-error disabled:!text-error",
               )}
             >
-              Sold out
+              Em falta
             </a>
           )}
       </div>

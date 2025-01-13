@@ -63,7 +63,7 @@ function WishlistButton({ item, variant = "full" }: Props) {
       >
         <Icon id="favorite" class="[.htmx-request_&]:hidden" fill="none" />
         {variant === "full" && (
-          <span class="[.htmx-request_&]:hidden">Add to wishlist</span>
+          <span class="[.htmx-request_&]:hidden">Adicionar à lista de desejos</span>
         )}
         <span class="[.htmx-request_&]:inline hidden loading loading-spinner" />
       </button>
