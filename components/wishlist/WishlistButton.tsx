@@ -20,7 +20,7 @@ const onLoad = (id: string, productID: string) =>
     );
     const span = button.querySelector("span");
     if (span) {
-      span.innerHTML = inWishlist ? "Remove from wishlist" : "Add to wishlist";
+      span.innerHTML = inWishlist ? "Remover da lista de desejos" : "Adicionar à lista de desejos";
     }
   });
 const onClick = (productID: string, productGroupID: string) => {
@@ -52,7 +52,7 @@ function WishlistButton({ item, variant = "full" }: Props) {
         data-wishlist-button
         disabled
         {...addToWishlistEvent}
-        aria-label="Add to wishlist"
+        aria-label="Adicionar à lista de desejos"
         hx-on:click={useScript(onClick, productID, productGroupID)}
         class={clx(
           "btn no-animation",
