@@ -57,7 +57,7 @@ export default function HeroFlats({
             }`}
           >
             <div
-              class={`text-zinc-400 text-[16px] md:text-[18px] leading-[150%] ${window.location.pathname}`}
+              class={`text-zinc-400 text-[16px] md:text-[18px] leading-[150%]`}
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
