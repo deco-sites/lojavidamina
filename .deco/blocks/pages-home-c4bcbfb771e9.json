@@ -15,35 +15,12 @@
             "__resolveType": "site/sections/Images/Carousel.tsx",
             "images": [
               {
-                "desktop": "https://data.decoassets.com/lojavidamina/baef4faf-dfaf-4741-9677-c7f454b3a0c2/teste.png",
-                "mobile": "https://data.decoassets.com/lojavidamina/baef4faf-dfaf-4741-9677-c7f454b3a0c2/teste.png",
+                "desktop": "https://data.decoassets.com/lojavidamina/befbe50d-818a-4366-b40f-0886dd5eff48/Banner-site-Vidamina01-(1).png",
+                "mobile": "https://data.decoassets.com/lojavidamina/befbe50d-818a-4366-b40f-0886dd5eff48/Banner-site-Vidamina01-(1).png",
                 "alt": "#1",
                 "action": {
-                  "href": "/s?q=shoes&page=0",
-                  "label": "Grab Yours Now!",
-                  "subTitle": "Top-quality roller skate shoes for all levels. ",
-                  "title": "Skate into Adventure"
+                  "href": "/products"
                 }
-              },
-              {
-                "desktop": "https://data.decoassets.com/lojavidamina/baef4faf-dfaf-4741-9677-c7f454b3a0c2/teste.png",
-                "mobile": "https://data.decoassets.com/lojavidamina/baef4faf-dfaf-4741-9677-c7f454b3a0c2/teste.png",
-                "alt": "#2",
-                "action": {
-                  "href": "/men",
-                  "label": "Shop the Collection"
-                }
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/1226ef79-c7e0-403c-b716-b6b9af3f2936",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2177/f7ea4cbe-7498-4e64-9205-c741753edfcc",
-                "action": {
-                  "label": "Shop Now!",
-                  "href": "/women",
-                  "title": "Embrace New Trends",
-                  "subTitle": "Stylish clothes and accessories."
-                },
-                "alt": "Woman"
               }
             ],
             "preload": false
