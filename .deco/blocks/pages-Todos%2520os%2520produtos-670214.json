@@ -2,7 +2,7 @@
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
-    "title": "Vida Calma"
+    "title": "Todos os produtos"
   },
   "sections": [
     {
