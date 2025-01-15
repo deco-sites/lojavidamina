@@ -1,0 +1,8 @@
+{
+  "__resolveType": "site/sections/Product/SearchResult.tsx",
+  "layout": {
+    "pagination": "show-more"
+  },
+  "startingPage": 0,
+  "partial": "hideMore"
+}
