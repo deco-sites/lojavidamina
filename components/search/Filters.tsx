@@ -72,7 +72,7 @@ function Filters({ filters }: Props) {
         .filter(isToggle)
         .map((filter) => (
           <li class="flex flex-col gap-4">
-            <span>{filter.label}</span>
+            <span>{(filter.label == 'Departamento') ? 'Linhas' : filter.label}</span>
             <FilterValues {...filter} />
           </li>
         ))}
