@@ -3847,9 +3847,6 @@ details.collapse summary::-webkit-details-marker {
 .block {
   display: block;
 }
-.inline-block {
-  display: inline-block;
-}
 .inline {
   display: inline;
 }
@@ -4771,9 +4768,6 @@ details.collapse summary::-webkit-details-marker {
 .text-\[48px\] {
   font-size: 48px;
 }
-.text-\[80px\] {
-  font-size: 80px;
-}
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -4834,9 +4828,6 @@ details.collapse summary::-webkit-details-marker {
 .leading-\[1\.125rem\] {
   line-height: 1.125rem;
 }
-.leading-\[100\%\] {
-  line-height: 100%;
-}
 .leading-\[10px\] {
   line-height: 10px;
 }
@@ -4863,9 +4854,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .leading-\[22px\] {
   line-height: 22px;
-}
-.tracking-\[-2\.4px\] {
-  letter-spacing: -2.4px;
 }
 .tracking-\[-3px\] {
   letter-spacing: -3px;

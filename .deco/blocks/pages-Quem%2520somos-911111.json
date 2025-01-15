@@ -1,0 +1,117 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Vida Imune"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "commerce/sections/Seo/SeoPLPV2.tsx",
+        "jsonLD": {
+          "__resolveType": "PLP Loader"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "desktop": "https://data.decoassets.com/lojavidamina/059c86d4-d440-44d0-9680-08bd59da6801/featured.png",
+              "mobile": "https://data.decoassets.com/lojavidamina/059c86d4-d440-44d0-9680-08bd59da6801/featured.png"
+            },
+            "title": "Quem somos",
+            "subtitle": "Saiba mais sobre a Vidamina"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Hero.tsx",
+        "description": "Bem-estar e cuidado com você fazem parte do nosso DNA. Somos uma marca do grupo Singular Pharma, uma empresa baiana farmacêutica única, que nasceu em 2015 mas tem na sua história farmacêuticos com 35 anos de experiência no mercado. Com uma visão ampla de saúde, a Singular Pharma tem como objetivo fornecer as melhores soluções e formulações manipuladas nas áreas de saúde preventiva, como gerenciamento de peso, longevidade, qualidade do sono, controle do stress e melhoria da função cognitiva.",
+        "image": "https://data.decoassets.com/lojavidamina/059c86d4-d440-44d0-9680-08bd59da6801/featured.png",
+        "title": "<p>Estamos presentes da gestação à longevidade, da perda de peso ao ganho de massa, da melhora do sono à melhora do foco: em todos os momentos, a Vidamina está ao seu lado para te impulsionar até o seu objetivo.</p>",
+        "placement": "right"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryGrid.tsx",
+        "items": [
+          {
+            "image": "https://data.decoassets.com/lojavidamina/aaea1b25-f517-49c4-baa6-b45455d1b275/VIDAMINA---POUCH---Vida-Leve.png",
+            "href": "/category/vida-leve",
+            "label": "Vida Leve"
+          },
+          {
+            "image": "https://data.decoassets.com/lojavidamina/31c84460-4b96-4666-b7fa-8946dc9a9d17/VIDAMINA---POUCH---Vida-Imune.png",
+            "href": "/category/vida-imune",
+            "label": "Vida Imune"
+          },
+          {
+            "image": "https://data.decoassets.com/lojavidamina/3bdfd27a-e9a7-4ee7-a0af-d643992e93b5/VIDAMINA---POUCH---Vida-Ativa.png",
+            "href": "/category/vida-ativa",
+            "label": "Vida Ativa"
+          },
+          {
+            "image": "https://data.decoassets.com/lojavidamina/f549b996-d7f8-43fc-a2e8-ebe2205ce576/VIDAMINA---POUCH---Vida-Pura.png",
+            "href": "/category/vida-pura",
+            "label": "Vida Pura"
+          },
+          {
+            "image": "https://data.decoassets.com/lojavidamina/dec0ad42-4a2d-4759-ba7b-c572c08de177/VIDAMINA---POUCH---Vida-Calma.png",
+            "href": "/category/vida-calma",
+            "label": "Vida Calma"
+          },
+          {
+            "image": "https://data.decoassets.com/lojavidamina/0ee73c90-65bd-4995-84fe-f7b58261c75b/VIDAMINA---POUCH---Vida-Plena.png",
+            "href": "/category/vida-plena",
+            "label": "Vida Plena"
+          }
+        ],
+        "title": "Conheça nossas linhas"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
+        "empty": {
+          "title": "Inscreva-se e recebe novidades exclusivas",
+          "description": "Inscreva-se no formulário ao lado e receba em primeira mão novidades sobre os nossos suplementos:"
+        },
+        "success": {
+          "title": "Obrigado por se inscrever!",
+          "description": "Você agora receberá em tempo real novidades sobre os nossos suplementos!"
+        },
+        "failed": {
+          "title": "Oops!. Something went wrong!",
+          "description": "Something went wrong. Please try again. If the problem persists, please contact us."
+        },
+        "label": "Inscreva-me",
+        "placeholder": "email@exemplo.com"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "name": "Quem somos",
+  "path": "/about-us"
+}

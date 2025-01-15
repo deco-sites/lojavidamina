@@ -113,7 +113,7 @@ function Footer({
           </div>
 
           <div style="justify-content:flex-end !important;z-index:9999999;" class="flex flex-nowrap items-center justify-center gap-4">
-            <span class="text-sm font-normal text-base-400"><a href="#">Quem somos</a></span>
+            <span class="text-sm font-normal text-base-400"><a href="/about-us">Quem somos</a></span>
             
           </div>
         </div>
