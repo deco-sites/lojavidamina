@@ -48,4 +48,14 @@
   .about-us-link {
     justify-content:flex-end !important;
   }
+
+  .footer-logo {
+    position:absolute;
+    right:0;
+    left:0;
+  }
+
+  .institutional-logo {
+    height:56px;
+  }
 }

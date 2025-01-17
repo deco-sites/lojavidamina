@@ -94,7 +94,7 @@ function Footer({
 
         <hr style="border-color:#000" class="w-full text-base-400" />
 
-        <div style="position:relative;height:56px;" class="grid grid-flow-row sm:grid-flow-col gap-8">
+        <div style="position:relative;" class="institutional-logo grid grid-flow-row sm:grid-flow-col gap-8">
           <ul style="z-index:9999998;" class="flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center">
             {policies.map(({ title, href }) => (
               <li>
@@ -105,7 +105,7 @@ function Footer({
             ))}
           </ul>
 
-          <div style="position:absolute;right:0;left:0;margin:auto;" class="flex flex-nowrap items-center justify-between sm:justify-center gap-4">
+          <div style="margin:auto;" class="footer-logo flex flex-nowrap items-center justify-between sm:justify-center gap-4">
             <div>
               <img loading="lazy" src={logo} />
             </div>
