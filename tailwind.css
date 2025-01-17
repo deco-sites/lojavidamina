@@ -40,6 +40,12 @@
 
 @media screen and (max-width:960px) {
   .about-us-link {
-    align-items:center !important;
+    justify-content:center !important;
+  }
+}
+
+@media screen and (min-width:960px) {
+  .about-us-link {
+    justify-content:flex-end !important;
   }
 }
