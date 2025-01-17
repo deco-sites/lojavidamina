@@ -2,7 +2,6 @@ import { type ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import PoweredByDeco from "apps/website/components/PoweredByDeco.tsx";
 import Section from "../../components/ui/Section.tsx";
-import "./Footer.css";
 
 /** @titleBy title */
 interface Item {
