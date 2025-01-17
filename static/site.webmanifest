@@ -5,9 +5,9 @@
     "scope": "/",
     "start_url": "/",
     "id": "/?source=pwa",
-    "short_name": "Storefront",
+    "short_name": "Vidamina",
     "orientation": "portrait",
     "icons": [],
-    "name": "Storefront by Deco",
-    "description": "Storefront made with love in Rio"
+    "name": "Vidamina",
+    "description": "Conheça as nossas soluções únicas e ativos de alta qualidade para que nossos clientes possam cuidar da sua própria saúde e bem-estar!"
 }
