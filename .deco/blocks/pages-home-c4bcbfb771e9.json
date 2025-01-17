@@ -21,6 +21,13 @@
                 "action": {
                   "href": "/products"
                 }
+              },
+              {
+                "desktop": "https://data.decoassets.com/lojavidamina/1ec03f8d-f206-4fe7-b524-e1b9037cb531/Banner-site-Vidamina02.png",
+                "mobile": "https://data.decoassets.com/lojavidamina/1ec03f8d-f206-4fe7-b524-e1b9037cb531/Banner-site-Vidamina02.png",
+                "action": {
+                  "href": "/category/vida-plena"
+                }
               }
             ],
             "preload": false
