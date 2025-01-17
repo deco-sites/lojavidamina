@@ -112,26 +112,9 @@ function Footer({
             <span class="text-xs font-normal text-base-400">{trademark}</span>
           </div>
 
-          <style>
-            .about-us-footer {
-                z-index:9999999;
-            }
-
-            @media screen and (max-width:960px) {
-                .about-us-footer {
-                    justify-content:center !important;
-                }
-            }
-
-            @media screen and (min-width:960px) {
-                .about-us-footer {
-                    justify-content:flex-end !important;
-                }
-            }
-          </style>
-
-          <div class="about-us-footer flex flex-nowrap items-center justify-center gap-4">
+          <div style="justify-content:flex-end !important;z-index:9999999;" class="flex flex-nowrap items-center justify-center gap-4">
             <span class="text-sm font-normal text-base-400"><a href="/about-us">Quem somos</a></span>
+            
           </div>
         </div>
       </div>
