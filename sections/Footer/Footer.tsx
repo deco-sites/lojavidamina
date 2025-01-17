@@ -95,7 +95,7 @@ function Footer({
         <hr style="border-color:#000" class="w-full text-base-400" />
 
         <div style="position:relative;" class="institutional-logo grid grid-flow-row sm:grid-flow-col gap-8">
-          <ul style="z-index:9999998;" class="flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center">
+          <ul style="z-index:9999998;" class="policies-links flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center">
             {policies.map(({ title, href }) => (
               <li>
                 <a class="text-sm font-normal" href={href}>

@@ -42,6 +42,10 @@
   .about-us-link {
     justify-content:center !important;
   }
+
+  .policies-links {
+    text-align:center;
+  }
 }
 
 @media screen and (min-width:960px) {
