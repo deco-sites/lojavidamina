@@ -37,3 +37,9 @@
     --dot-progress: 100%
   }
 }
+
+@media screen and (max-width:960px) {
+  .about-us-link {
+    align-items:center !important;
+  }
+}
