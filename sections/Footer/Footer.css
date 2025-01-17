@@ -1,0 +1,15 @@
+.about-us-footer {
+    z-index:9999999;
+}
+
+@media screen and (max-width:960px) {
+    .about-us-footer {
+        justify-content:center !important;
+    }
+}
+
+@media screen and (min-width:960px) {
+    .about-us-footer {
+        justify-content:flex-end !important;
+    }
+}
