@@ -46,6 +46,10 @@
   .policies-links {
     text-align:center;
   }
+
+  .footer-logos {
+    align-items:center !important;
+  }
 }
 
 @media screen and (min-width:960px) {

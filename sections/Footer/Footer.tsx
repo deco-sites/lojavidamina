@@ -61,7 +61,7 @@ function Footer({
           ))}
         </ul>
 
-        <div class="flex flex-col sm:flex-row gap-12 justify-between items-start sm:items-center">
+        <div class="footer-logos flex flex-col sm:flex-row gap-12 justify-between items-start sm:items-center">
           <ul class="flex gap-4">
             {social.map(({ image, href, alt }) => (
               <li>
