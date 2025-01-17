@@ -2,7 +2,7 @@
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
-    "title": "Vida Plena"
+    "title": "Vida Leve"
   },
   "sections": [
     {
@@ -23,15 +23,41 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "desktop": "https://data.decoassets.com/lojavidamina/295ee439-1cf9-49a9-9583-566c4db6e280/healthy-food-(3).png",
+              "mobile": "https://data.decoassets.com/lojavidamina/295ee439-1cf9-49a9-9583-566c4db6e280/healthy-food-(3).png"
+            },
+            "title": "Vida Pura",
+            "subtitle": "Para detox e revitalização natural"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
             "sort": "price:desc",
-            "collection": "144",
+            "collection": "143",
             "count": 100
           }
         }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Hero.tsx",
+        "image": "https://data.decoassets.com/lojavidamina/d20dba64-4feb-4978-94cb-8b88298d4d17/Design-sem-nome-(30).png",
+        "description": "A linha Vida Pura foi desenvolvida para ajudar seu corpo a se desintoxicar naturalmente, combater danos oxidativos e promover a regeneração celular. Com ingredientes cuidadosamente selecionados, esses suplementos oferecem suporte essencial para um organismo mais equilibrado e saudável, trazendo mais vitalidade para o seu dia a dia.",
+        "placement": "right",
+        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Elimine toxinas e revitalize sua saúde com Vida Pura!</span></strong></span></p>"
       }
     },
     {
@@ -61,6 +87,6 @@
       }
     }
   ],
-  "name": "Categoria:Vida Plena",
-  "path": "/category/vida-plena"
+  "name": "Categoria:Vida Pura",
+  "path": "/category/vida-pura"
 }

@@ -2,7 +2,7 @@
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
-    "title": "Vida Imune"
+    "title": "Vida Leve"
   },
   "sections": [
     {
@@ -23,15 +23,41 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "desktop": "https://data.decoassets.com/lojavidamina/b981ac15-933b-4cda-96e3-ce4b2a2b2ff1/healthy-food-(4).png",
+              "mobile": "https://data.decoassets.com/lojavidamina/b981ac15-933b-4cda-96e3-ce4b2a2b2ff1/healthy-food-(4).png"
+            },
+            "title": "Vida Calma",
+            "subtitle": "Para relaxamento e bem-estar"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
             "sort": "price:desc",
-            "collection": "142",
+            "collection": "139",
             "count": 100
           }
         }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Hero.tsx",
+        "image": "https://data.decoassets.com/lojavidamina/9c25e2c3-04af-4494-b4e8-86a5999eb599/Design-sem-nome-(31).png",
+        "description": "A Vida Calma foi desenvolvida para promover o relaxamento e o equilíbrio mental. Com ingredientes naturais que auxiliam na redução do estresse e da ansiedade, essa linha melhora a qualidade do sono e proporciona mais disposição para o dia. Sinta-se mais leve, focado e com bem-estar duradouro, trazendo mais harmonia para sua rotina.",
+        "placement": "right",
+        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Reduza o estresse e durma melhor com Vida Calma!</span></strong></span></p>"
       }
     },
     {
@@ -61,6 +87,6 @@
       }
     }
   ],
-  "name": "Categoria:Vida Imune",
-  "path": "/category/vida-imune"
+  "name": "Categoria:Vida Calma",
+  "path": "/category/vida-calma"
 }

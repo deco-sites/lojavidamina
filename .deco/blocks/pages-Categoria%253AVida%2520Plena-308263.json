@@ -2,7 +2,7 @@
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
-    "title": "Vida Calma"
+    "title": "Vida Leve"
   },
   "sections": [
     {
@@ -23,15 +23,41 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "desktop": "https://data.decoassets.com/lojavidamina/f8c2f0e5-1e8f-4834-a2b2-9d8b3930fabb/healthy-food-(5).png",
+              "mobile": "https://data.decoassets.com/lojavidamina/f8c2f0e5-1e8f-4834-a2b2-9d8b3930fabb/healthy-food-(5).png"
+            },
+            "title": "Vida Plena",
+            "subtitle": "Para equilíbrio na menopausa"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
             "sort": "price:desc",
-            "collection": "139",
+            "collection": "144",
             "count": 100
           }
         }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Hero.tsx",
+        "image": "https://data.decoassets.com/lojavidamina/f2784b74-d2e4-4062-b91f-8619a873084a/Design-sem-nome-(32).png",
+        "description": "A Vida Plena foi desenvolvida para oferecer suporte integral durante a menopausa. Com fórmulas que equilibram o corpo e a mente, essa linha atenua sintomas como ondas de calor, alterações de humor e falta de energia, proporcionando mais bem-estar e qualidade de vida. Viva essa fase com mais conforto, equilíbrio e disposição, aproveitando cada momento ao máximo.",
+        "placement": "right",
+        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Bem-estar completo na menopausa com Vida Plena!</span></strong></span></p>"
       }
     },
     {
@@ -61,6 +87,6 @@
       }
     }
   ],
-  "name": "Categoria:Vida Calma",
-  "path": "/category/vida-calma"
+  "name": "Categoria:Vida Plena",
+  "path": "/category/vida-plena"
 }
