@@ -5039,6 +5039,36 @@ details.collapse summary::-webkit-details-marker {
   }
 }
 
+@media screen and (max-width:960px) {
+  .about-us-link {
+    justify-content:center !important;
+  }
+
+  .policies-links {
+    text-align:center;
+  }
+
+  .footer-logos {
+    align-items:center !important;
+  }
+}
+
+@media screen and (min-width:960px) {
+  .about-us-link {
+    justify-content:flex-end !important;
+  }
+
+  .footer-logo {
+    position:absolute;
+    right:0;
+    left:0;
+  }
+
+  .institutional-logo {
+    height:56px;
+  }
+}
+
 .invalid\:input-error:invalid {
   --tw-border-opacity: 1;
   border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
