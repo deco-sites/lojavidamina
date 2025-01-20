@@ -19,15 +19,10 @@ export interface Props extends SectionHeaderProps {
 function Card({ image, href, label }: Item) {
   return (
     <a href={href} class="flex flex-col items-center justify-center gap-4">
-      <div class="w-44 h-44 rounded-full bg-base-200 flex justify-center items-center border border-transparent hover:border-primary">
-        <Image
-          src={image}
-          alt={label}
-          width={100}
-          height={100}
-          loading="lazy"
-        />
-      </div>
+      <div
+        className="w-44 h-44 rounded-full bg-base-200 flex justify-center items-center border border-transparent hover:border-primary"
+        style={{ backgroundImage: `url(${image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      ></div>
       <span class="font-medium text-sm">{label}</span>
     </a>
   );
