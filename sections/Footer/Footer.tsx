@@ -95,7 +95,7 @@ function Footer({
         <hr style="border-color:#000" class="w-full text-base-400" />
 
         <div style="position:relative;" class="institutional-logo grid grid-flow-row sm:grid-flow-col gap-8">
-          <ul style="z-index:9999998;" class="policies-links flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center">
+          <ul style="z-index:9999998;flex-wrap:wrap !important;" class="policies-links flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center">
             {policies.map(({ title, href }) => (
               <li>
                 <a class="text-sm font-normal" href={href}>
@@ -114,7 +114,7 @@ function Footer({
 
           <div style="justify-content:flex-end !important;z-index:9999999;flex-wrap:wrap !important;" class="flex items-center justify-center gap-4 institutional-links">
             <p><span class="text-sm font-normal text-base-400"><a href="/about-us">Quem somos</a></span></p>
-            <p><span class="text-sm font-normal text-base-400">Teste</span></p>
+            <p><span class="text-sm font-normal text-base-400">05.794.416/0001-42 - Singular Farmacia de Manipulação</span></p>
           </div>
         </div>
       </div>

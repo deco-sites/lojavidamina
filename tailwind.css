@@ -38,7 +38,8 @@
   }
 }
 
-.institutional-links p {
+.institutional-links p,
+.policies-links li {
   flex:100%;
 }
 
