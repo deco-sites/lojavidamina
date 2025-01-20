@@ -80,3 +80,8 @@
     text-align:right;
   }
 }
+
+/* Apagar quando descobrirmos o motivo do preço cortado repetido */
+.line-through {
+  display:none !important;
+}
