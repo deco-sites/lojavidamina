@@ -38,6 +38,10 @@
   }
 }
 
+.institutional-links p {
+  flex:100%;
+}
+
 @media screen and (max-width:960px) {
   .about-us-link {
     justify-content:center !important;
