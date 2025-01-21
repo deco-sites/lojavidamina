@@ -34,6 +34,7 @@ function FilterValues({ key, values }: FilterToggle) {
 
   return (
     <ul class={clx(`flex flex-wrap gap-2`, flexDirection)}>
+      <p>{key}</p>
       {values.map((item) => {
         const { url, selected, value } = item;
 
