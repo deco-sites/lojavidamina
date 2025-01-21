@@ -18,20 +18,20 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
 
 function ValueItem(
   { url, selected, label, quantity }: FilterToggleValue,
-  key: string,
+  filterKey: string,
 ) {
   return (
     <a href={url} rel="nofollow" class="flex items-center gap-2">
       <div aria-checked={selected} class="checkbox" />
       <span class="text-sm">{(label == 'UseVidamina' ? 'Vidamina' : (((/^Vida\w+/).test(label)) ? label.replace(/([a-z])([A-Z])/g, '$1 $2') : label))}</span>
-      <span>{key}</span>
+      <span>{filterKey}</span>
       {quantity > 0 && <span class="text-sm text-base-400">({quantity})</span>}
     </a>
   );
 }
 
-function FilterValues({ key, values }: FilterToggle) {
-  const avatars = key === "tamanho" || key === "cor";
+function FilterValues({ filterKey, values }: FilterToggle) {
+  const avatars = filterKey === "tamanho" || filterKey === "cor";
   const flexDirection = avatars ? "flex-row items-center" : "flex-col";
 
   return (
@@ -50,21 +50,19 @@ function FilterValues({ key, values }: FilterToggle) {
           );
         }
 
-        console.log(key);
-
-        if (key === "price") {
+        if (filterKey === "price") {
           const range = parseRange(item.value);
 
           return range && (
             <ValueItem
               {...item}
               label={`${formatPrice(range.from)} - ${formatPrice(range.to)}`}
-              key={key}
+              filterKey={filterKey}
             />
           );
         }
 
-        return <ValueItem {...item} key="Teste" />;
+        return <ValueItem {...item} filterKey={filterKey} />;
       })}
     </ul>
   );
