@@ -71,15 +71,14 @@ function Filters({ filters }: Props) {
     <ul class="flex flex-col gap-6 p-4 sm:p-0">
       {filters
         .filter(isToggle)
-        .map((filter) => (
-          if(filter == 'Departamento') {
-            <li class="flex flex-col gap-4">
-              <span>{(filter.label == 'Departamento') ? 'Linhas' : filter.label}</span>
-              <FilterValues {...filter} />
-            </li>
-          }
-          <li class="flex flex-col gap-4">
-            <span>{(filter.label == 'Departamento') ? 'Linhas' : filter.label}</span>
+        .flatMap((filter) =>
+          filter.label === "Departamento"
+            ? [filter, filter] // Duplicamos o filtro "Departamento"
+            : [filter] // Mantemos os outros normalmente
+        )
+        .map((filter, index) => (
+          <li key={`${filter.label}-${index}`} class="flex flex-col gap-4">
+            <span>{filter.label === "Departamento" ? "Linhas" : filter.label}</span>
             <FilterValues {...filter} />
           </li>
         ))}
