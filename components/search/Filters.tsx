@@ -19,15 +19,20 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
 function ValueItem(
   { url, selected, label, quantity, index, categoria }: FilterToggleValue & { index: number; categoria: string },
 ) {
+  const matchVida = /^Vida\w+/.test(label);
+
+  if (categoria === "category-1") {
+    if (index === 0 && !matchVida) return null;
+    if (index === 1 && matchVida) return null;
+  }
+
   return (
     <a href={url} rel="nofollow" class="flex items-center gap-2">
       <div aria-checked={selected} class="checkbox" />
       <span class="text-sm">
         {label === "UseVidamina"
           ? "Vidamina"
-          : (/^Vida\w+/.test(label)
-            ? label.replace(/([a-z])([A-Z])/g, "$1 $2")
-            : label)}
+          : (matchVida ? label.replace(/([a-z])([A-Z])/g, "$1 $2") : label)}
       </span>
       {quantity > 0 && <span class="text-sm text-base-400">({quantity})</span>}
     </a>
