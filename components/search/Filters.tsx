@@ -29,7 +29,6 @@ function ValueItem(
             ? label.replace(/([a-z])([A-Z])/g, "$1 $2")
             : label)}
       </span>
-      <span class="text-xs text-gray-500">(Filter: {categoria})</span>
       {quantity > 0 && <span class="text-sm text-base-400">({quantity})</span>}
     </a>
   );
