@@ -17,10 +17,10 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
   filter["@type"] === "FilterToggle";
 
 function ValueItem(
-  { url, selected, label, quantity, index }: FilterToggleValue & { index: number },
+  { url, selected, label, quantity, index }: FilterToggleValue & { index: number; filter: string },
 ) {
   return (
-    <a href={url} rel="nofollow" class="flex items-center gap-2">
+    <a href={url} rel="nofollow" class="flex items-center gap-2" alt={`${filter}_${index}`}>
       <div aria-checked={selected} class="checkbox" />
       <span class="text-sm">
         {label === "UseVidamina"
@@ -29,7 +29,6 @@ function ValueItem(
             ? label.replace(/([a-z])([A-Z])/g, "$1 $2")
             : label)}
       </span>
-      <span class="text-xs text-gray-500">(Index: {index})</span>
       {quantity > 0 && <span class="text-sm text-base-400">({quantity})</span>}
     </a>
   );
@@ -66,12 +65,13 @@ function FilterValues({ filter, index }: { filter: FilterToggle; index: number }
                 {...item}
                 label={`${formatPrice(range.from)} - ${formatPrice(range.to)}`}
                 index={index}
+                filter={key}
               />
             )
           );
         }
 
-        return <ValueItem {...item} index={index} />;
+        return <ValueItem {...item} index={index} filter={key} />;
       })}
     </ul>
   );
