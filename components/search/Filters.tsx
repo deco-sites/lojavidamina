@@ -20,7 +20,7 @@ function ValueItem(
   { url, selected, label, quantity, index }: FilterToggleValue & { index: number; filter: string },
 ) {
   return (
-    <a href={url} rel="nofollow" class="flex items-center gap-2" alt={`${filter}_${index}`}>
+    <a href={url} rel="nofollow" class="flex items-center gap-2">
       <div aria-checked={selected} class="checkbox" />
       <span class="text-sm">
         {label === "UseVidamina"
@@ -29,6 +29,7 @@ function ValueItem(
             ? label.replace(/([a-z])([A-Z])/g, "$1 $2")
             : label)}
       </span>
+      <span class="text-xs text-gray-500">(Index: {index})</span>
       {quantity > 0 && <span class="text-sm text-base-400">({quantity})</span>}
     </a>
   );
