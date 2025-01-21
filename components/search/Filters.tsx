@@ -28,13 +28,14 @@ function ValueItem(
   );
 }
 
-function FilterValues({ key, values }: FilterToggle) {
+function FilterValues({ filter, index }: { filter: FilterToggle; index: number }) {
+  const { key, values } = filter;
   const avatars = key === "tamanho" || key === "cor";
   const flexDirection = avatars ? "flex-row items-center" : "flex-col";
 
   return (
     <ul class={clx(`flex flex-wrap gap-2`, flexDirection)}>
-      <p>{key}</p>
+      <p>{key} | {index}</p>
       {values.map((item) => {
         const { url, selected, value } = item;
 
@@ -52,15 +53,18 @@ function FilterValues({ key, values }: FilterToggle) {
         if (key === "price") {
           const range = parseRange(item.value);
 
-          return range && (
-            <ValueItem
-              {...item}
-              label={`${formatPrice(range.from)} - ${formatPrice(range.to)}`}
-            />
+          return (
+            range && (
+              <ValueItem
+                {...item}
+                label={`${formatPrice(range.from)} - ${formatPrice(range.to)}`}
+                index={index}
+              />
+            )
           );
         }
 
-        return <ValueItem {...item} />;
+        return <ValueItem {...item} index={index} />;
       })}
     </ul>
   );
@@ -79,7 +83,7 @@ function Filters({ filters }: Props) {
         .map((filter, index) => (
           <li key={`${filter.label}-${index}`} class="flex flex-col gap-4">
             <span>{filter.label === "Departamento" ? (index == 0 ? "Linhas" : "Categorias") : filter.label}</span>
-            <FilterValues {...filter} />
+            <FilterValues filter={filter} index={index} />
           </li>
         ))}
     </ul>
