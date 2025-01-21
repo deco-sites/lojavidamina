@@ -33,7 +33,7 @@ function FilterValues({ key, values }: FilterToggle) {
   const flexDirection = avatars ? "flex-row items-center" : "flex-col";
 
   return (
-    <ul class={clx(flex flex-wrap gap-2, flexDirection)}>
+    <ul class={clx(`flex flex-wrap gap-2`, flexDirection)}>
       {values.map((item) => {
         const { url, selected, value } = item;
 
@@ -54,7 +54,7 @@ function FilterValues({ key, values }: FilterToggle) {
           return range && (
             <ValueItem
               {...item}
-              label={${formatPrice(range.from)} - ${formatPrice(range.to)}}
+              label={`${formatPrice(range.from)} - ${formatPrice(range.to)}`}
             />
           );
         }
