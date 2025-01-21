@@ -18,22 +18,19 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
 
 function ValueItem(
   { url, selected, label, quantity }: FilterToggleValue,
-  filterLabel: string,
+  key: string,
 ) {
-  if (filterLabel === "Departamento" && !(/^Vida\w+/).test(label)) {
-    return null;
-  }
-
   return (
     <a href={url} rel="nofollow" class="flex items-center gap-2">
       <div aria-checked={selected} class="checkbox" />
       <span class="text-sm">{(label == 'UseVidamina' ? 'Vidamina' : (((/^Vida\w+/).test(label)) ? label.replace(/([a-z])([A-Z])/g, '$1 $2') : label))}</span>
+      <span>({key})</span>
       {quantity > 0 && <span class="text-sm text-base-400">({quantity})</span>}
     </a>
   );
 }
 
-function FilterValues({ key, values, label }: FilterToggle) {
+function FilterValues({ key, values }: FilterToggle) {
   const avatars = key === "tamanho" || key === "cor";
   const flexDirection = avatars ? "flex-row items-center" : "flex-col";
 
@@ -60,12 +57,12 @@ function FilterValues({ key, values, label }: FilterToggle) {
             <ValueItem
               {...item}
               label={`${formatPrice(range.from)} - ${formatPrice(range.to)}`}
-              filterLabel={label}
+              key={key}
             />
           );
         }
 
-        return <ValueItem {...item} filterLabel={label} />;
+        return <ValueItem {...item} key={key} />;
       })}
     </ul>
   );
