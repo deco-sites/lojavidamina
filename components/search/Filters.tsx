@@ -24,7 +24,7 @@ function ValueItem(
     <a href={url} rel="nofollow" class="flex items-center gap-2">
       <div aria-checked={selected} class="checkbox" />
       <span class="text-sm">{(label == 'UseVidamina' ? 'Vidamina' : (((/^Vida\w+/).test(label)) ? label.replace(/([a-z])([A-Z])/g, '$1 $2') : label))}</span>
-      <span>({key})</span>
+      <span>{key}</span>
       {quantity > 0 && <span class="text-sm text-base-400">({quantity})</span>}
     </a>
   );
@@ -62,7 +62,7 @@ function FilterValues({ key, values }: FilterToggle) {
           );
         }
 
-        return <ValueItem {...item} key={key} />;
+        return <ValueItem {...item} key="Teste" />;
       })}
     </ul>
   );
