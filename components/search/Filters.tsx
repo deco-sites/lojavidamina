@@ -19,6 +19,7 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
 function ValueItem(
   { url, selected, label, quantity, index, categoria }: FilterToggleValue & { index: number; categoria: string },
 ) {
+  const pathname = typeof window !== "undefined" ? window.location.pathname : "";
   const matchVida = /^Vida\w+/.test(label);
 
   if (categoria === "category-1") {
@@ -27,7 +28,7 @@ function ValueItem(
   }
 
   return (
-    <a href={url} rel="nofollow" class="flex items-center gap-2">
+    <a href={url} rel="nofollow" class="flex items-center gap-2" alt={pathname}>
       <div aria-checked={selected} class="checkbox" />
       <span class="text-sm">
         {label === "UseVidamina"
