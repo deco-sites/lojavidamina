@@ -78,7 +78,7 @@ function Filters({ filters }: Props) {
         )
         .map((filter, index) => (
           <li key={`${filter.label}-${index}`} class="flex flex-col gap-4">
-            <span>{filter.label === "Departamento" ? "Linhas" : filter.label}</span>
+            <span>{filter.label === "Departamento" ? (index == 0 ? "Linhas" : "Categorias") : filter.label}</span>
             <FilterValues {...filter} />
           </li>
         ))}
