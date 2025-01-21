@@ -50,6 +50,8 @@ function FilterValues({ key, values }: FilterToggle) {
           );
         }
 
+        console.log(key);
+
         if (key === "price") {
           const range = parseRange(item.value);
 
