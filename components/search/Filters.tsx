@@ -19,9 +19,6 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
 function ValueItem(
   { url, selected, label, quantity, index, categoria }: FilterToggleValue & { index: number; categoria: string },
 ) {
-  // const pageurl = new URL(import.meta.url);
-  // const pathname = pageurl.pathname;
-  const pathname = document?.location?.pathname ?? "null";
   const matchVida = /^Vida\w+/.test(label);
 
   if (categoria === "category-1") {
@@ -30,7 +27,7 @@ function ValueItem(
   }
 
   return (
-    <a href={url} rel="nofollow" class="flex items-center gap-2" alt={pathname}>
+    <a href={url} rel="nofollow" class="flex items-center gap-2">
       <div aria-checked={selected} class="checkbox" />
       <span class="text-sm">
         {label === "UseVidamina"
@@ -96,7 +93,7 @@ function Filters({ filters }: Props) {
             : [filter] // Mantemos os outros normalmente
         )
         .map((filter, index) => (
-          <li key={`${filter.label}-${index}`} class="flex flex-col gap-4">
+          <li key={`${filter.label}-${index}`} class="flex flex-col gap-4" className={`${filter.label == 'Departamento' ?? 'category-filter'}`}>
             <span>{filter.label === "Departamento" ? (index == 0 ? "Linhas" : "Categorias") : filter.label}</span>
             <FilterValues filter={filter} index={index} />
           </li>
