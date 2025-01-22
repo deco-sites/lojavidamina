@@ -262,9 +262,9 @@ function Result(props: SectionProps<typeof loader>) {
 
               <div class="grid place-items-center grid-cols-1 sm:grid-cols-[250px_1fr]">
                 {device === "desktop" && (
-                  <aside class="place-self-start flex flex-col gap-9">
+                  <aside class={`place-self-start flex flex-col gap-9 ${(url.includes("/category") ? 'category-list' : '')}`}>
                     <span class="text-base font-semibold h-12 flex items-center">
-                      Filtros {url.pathname}
+                      Filtros
                     </span>
 
                     <Filters filters={filters} />
