@@ -85,3 +85,7 @@
 .line-through {
   display:none !important;
 }
+
+.category-list .category-filter {
+  display:none !important;
+}
