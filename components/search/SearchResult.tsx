@@ -232,7 +232,7 @@ function Result(props: SectionProps<typeof loader>) {
                 <Drawer
                   id={controls}
                   aside={
-                    <div class="bg-base-100 flex flex-col h-full divide-y overflow-y-hidden">
+                    <div class={`bg-base-100 flex flex-col h-full divide-y overflow-y-hidden ${(url.includes("/category") ? 'category-list' : '')}`}>
                       <div class="flex justify-between items-center">
                         <h1 class="px-4 py-3">
                           <span class="font-medium text-2xl">Filtros</span>
