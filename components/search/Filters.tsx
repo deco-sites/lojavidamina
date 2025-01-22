@@ -19,8 +19,9 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
 function ValueItem(
   { url, selected, label, quantity, index, categoria }: FilterToggleValue & { index: number; categoria: string },
 ) {
-  const pageurl = new URL(import.meta.url);
-  const pathname = pageurl.pathname;
+  // const pageurl = new URL(import.meta.url);
+  // const pathname = pageurl.pathname;
+  const pathname = document?.location?.pathname ?? "null";
   const matchVida = /^Vida\w+/.test(label);
 
   if (categoria === "category-1") {
