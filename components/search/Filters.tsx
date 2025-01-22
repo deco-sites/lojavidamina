@@ -83,11 +83,11 @@ function FilterValues({ filter, index }: { filter: FilterToggle; index: number }
 }
 
 function Filters({ filters }: Props) {
-  const page_location = new URL(location.href);
+  const pageLocation = typeof window !== "undefined" ? new URL(location.href) : null;
 
   return (
     <ul class={`flex flex-col gap-6 p-4 sm:p-0`}>
-      <p>{page_location}</p>
+      <p>{pageLocation}</p>
       {filters
         .filter(isToggle)
         .flatMap((filter) =>
