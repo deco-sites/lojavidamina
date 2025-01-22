@@ -93,7 +93,7 @@ function Filters({ filters }: Props) {
             : [filter] // Mantemos os outros normalmente
         )
         .map((filter, index) => (
-          <li key={`${filter.label}-${index}`} class="flex flex-col gap-4" className={`${filter.label == 'Departamento' ?? 'category-filter'}`}>
+          <li key={`${filter.label}-${index}`} class={`flex flex-col gap-4 ${(filter.label == 'Departamento' ? 'category-filter' : '')}`}>
             <span>{filter.label === "Departamento" ? (index == 0 ? "Linhas" : "Categorias") : filter.label}</span>
             <FilterValues filter={filter} index={index} />
           </li>
