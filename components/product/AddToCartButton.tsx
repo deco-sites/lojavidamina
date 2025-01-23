@@ -18,6 +18,7 @@ const onClick = () => {
     decodeURIComponent(container.getAttribute("data-cart-item")!),
   );
   window.STOREFRONT.CART.addToCart(item, platformProps);
+  document.querySelector('[aria-label="open cart"]').click();
 };
 const onChange = () => {
   const input = event!.currentTarget as HTMLInputElement;
