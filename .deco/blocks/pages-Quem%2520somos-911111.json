@@ -52,34 +52,49 @@
         "__resolveType": "site/sections/Category/CategoryGrid.tsx",
         "items": [
           {
-            "image": "https://data.decoassets.com/lojavidamina/aaea1b25-f517-49c4-baa6-b45455d1b275/VIDAMINA---POUCH---Vida-Leve.png",
+            "image": "https://data.decoassets.com/lojavidamina/af661a75-a61c-4393-b602-0e32b13ceed6/Design-sem-nome-(26).png",
             "href": "/category/vida-leve",
             "label": "Vida Leve"
           },
           {
-            "image": "https://data.decoassets.com/lojavidamina/31c84460-4b96-4666-b7fa-8946dc9a9d17/VIDAMINA---POUCH---Vida-Imune.png",
+            "image": "https://data.decoassets.com/lojavidamina/5da2f0c5-d432-47d5-8e62-c09965696d90/Design-sem-nome-(27).png",
             "href": "/category/vida-imune",
             "label": "Vida Imune"
           },
           {
-            "image": "https://data.decoassets.com/lojavidamina/3bdfd27a-e9a7-4ee7-a0af-d643992e93b5/VIDAMINA---POUCH---Vida-Ativa.png",
+            "image": "https://data.decoassets.com/lojavidamina/72cc855c-7ab2-4a3c-9621-1345a32f7b15/Design-sem-nome-(29).png",
             "href": "/category/vida-ativa",
             "label": "Vida Ativa"
           },
           {
-            "image": "https://data.decoassets.com/lojavidamina/f549b996-d7f8-43fc-a2e8-ebe2205ce576/VIDAMINA---POUCH---Vida-Pura.png",
+            "image": "https://data.decoassets.com/lojavidamina/d20dba64-4feb-4978-94cb-8b88298d4d17/Design-sem-nome-(30).png",
             "href": "/category/vida-pura",
             "label": "Vida Pura"
           },
           {
-            "image": "https://data.decoassets.com/lojavidamina/dec0ad42-4a2d-4759-ba7b-c572c08de177/VIDAMINA---POUCH---Vida-Calma.png",
+            "image": "https://data.decoassets.com/lojavidamina/9c25e2c3-04af-4494-b4e8-86a5999eb599/Design-sem-nome-(31).png",
             "href": "/category/vida-calma",
             "label": "Vida Calma"
           },
           {
-            "image": "https://data.decoassets.com/lojavidamina/0ee73c90-65bd-4995-84fe-f7b58261c75b/VIDAMINA---POUCH---Vida-Plena.png",
+            "image": "https://data.decoassets.com/lojavidamina/3f99f5c1-aaa0-4be3-9842-17b0f75b8270/Design-sem-nome-(36).png",
             "href": "/category/vida-plena",
             "label": "Vida Plena"
+          },
+          {
+            "image": "https://data.decoassets.com/lojavidamina/0c459ed6-8761-460d-9e5e-8304edcb2a1f/Design-sem-nome-(34).png",
+            "href": "/category/vida-bela",
+            "label": "Vida Bela"
+          },
+          {
+            "image": "https://data.decoassets.com/lojavidamina/da40ffb9-a76b-42f8-a906-60d96c194c6c/Design-sem-nome-(35).png",
+            "href": "/category/vida-forte",
+            "label": "Vida Forte"
+          },
+          {
+            "image": "https://data.decoassets.com/lojavidamina/f2784b74-d2e4-4062-b91f-8619a873084a/Design-sem-nome-(32).png",
+            "href": "/category/vida-longa",
+            "label": "Vida Longa"
           }
         ],
         "title": "Conheça nossas linhas"

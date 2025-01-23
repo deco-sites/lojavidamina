@@ -27,11 +27,11 @@
         "banners": [
           {
             "image": {
-              "desktop": "https://data.decoassets.com/lojavidamina/f8c2f0e5-1e8f-4834-a2b2-9d8b3930fabb/healthy-food-(5).png",
-              "mobile": "https://data.decoassets.com/lojavidamina/f8c2f0e5-1e8f-4834-a2b2-9d8b3930fabb/healthy-food-(5).png"
+              "desktop": "https://data.decoassets.com/lojavidamina/d4269b80-b0f9-41c8-aad4-d0e3992da1a4/healthy-food-(2).png",
+              "mobile": "https://data.decoassets.com/lojavidamina/d4269b80-b0f9-41c8-aad4-d0e3992da1a4/healthy-food-(2).png"
             },
-            "title": "Vida Plena",
-            "subtitle": "Para equilíbrio na menopausa"
+            "title": "Vida Forte",
+            "subtitle": "Para ganho muscular e recuperação"
           }
         ]
       }
@@ -42,16 +42,16 @@
         "__resolveType": "site/sections/Product/SearchResult.tsx",
         "page": {
           "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-          "query": "usevidamina",
-          "count": 8,
           "sort": "name:asc",
           "fuzzy": "automatic",
           "selectedFacets": [
             {
               "key": "category-1",
-              "value": "VidaPlena"
+              "value": "VidaForte"
             }
-          ]
+          ],
+          "query": "usevidamina",
+          "count": 8
         },
         "layout": {
           "pagination": "show-more"
@@ -62,10 +62,10 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Content/Hero.tsx",
-        "image": "https://data.decoassets.com/lojavidamina/3f99f5c1-aaa0-4be3-9842-17b0f75b8270/Design-sem-nome-(36).png",
-        "description": "A Vida Plena foi desenvolvida para oferecer suporte integral durante a menopausa. Com fórmulas que equilibram o corpo e a mente, essa linha atenua sintomas como ondas de calor, alterações de humor e falta de energia, proporcionando mais bem-estar e qualidade de vida. Viva essa fase com mais conforto, equilíbrio e disposição, aproveitando cada momento ao máximo.",
+        "image": "https://data.decoassets.com/lojavidamina/da40ffb9-a76b-42f8-a906-60d96c194c6c/Design-sem-nome-(35).png",
+        "description": "A Vida Forte é a linha ideal para quem deseja maximizar o ganho muscular, melhorar a recuperação pós-treino e elevar a performance esportiva. Com fórmulas avançadas, seus suplementos oferecem suporte completo para treinos mais intensos e resultados superiores. Potencialize sua força, resistência e conquiste seu melhor desempenho.",
         "placement": "right",
-        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Bem-estar completo na menopausa com Vida Plena!</span></strong></span></p>"
+        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Potencialize seus treinos com Vida Forte!</span></strong></span></p>"
       }
     },
     {
@@ -95,6 +95,6 @@
       }
     }
   ],
-  "name": "Categoria:Vida Plena",
-  "path": "/category/vida-plena"
+  "name": "Categoria:Vida Forte",
+  "path": "/category/vida-forte"
 }

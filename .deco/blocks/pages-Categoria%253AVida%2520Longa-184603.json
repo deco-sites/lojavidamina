@@ -27,11 +27,11 @@
         "banners": [
           {
             "image": {
-              "desktop": "https://data.decoassets.com/lojavidamina/f8c2f0e5-1e8f-4834-a2b2-9d8b3930fabb/healthy-food-(5).png",
-              "mobile": "https://data.decoassets.com/lojavidamina/f8c2f0e5-1e8f-4834-a2b2-9d8b3930fabb/healthy-food-(5).png"
+              "desktop": "https://data.decoassets.com/lojavidamina/91d80703-748a-41ec-92ab-c95919bdf325/Vida-Longa.png",
+              "mobile": "https://data.decoassets.com/lojavidamina/91d80703-748a-41ec-92ab-c95919bdf325/Vida-Longa.png"
             },
-            "title": "Vida Plena",
-            "subtitle": "Para equilíbrio na menopausa"
+            "title": "Vida Longa",
+            "subtitle": "Para longevidade e vitalidade"
           }
         ]
       }
@@ -49,7 +49,7 @@
           "selectedFacets": [
             {
               "key": "category-1",
-              "value": "VidaPlena"
+              "value": "VidaLonga"
             }
           ]
         },
@@ -62,10 +62,10 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Content/Hero.tsx",
-        "image": "https://data.decoassets.com/lojavidamina/3f99f5c1-aaa0-4be3-9842-17b0f75b8270/Design-sem-nome-(36).png",
-        "description": "A Vida Plena foi desenvolvida para oferecer suporte integral durante a menopausa. Com fórmulas que equilibram o corpo e a mente, essa linha atenua sintomas como ondas de calor, alterações de humor e falta de energia, proporcionando mais bem-estar e qualidade de vida. Viva essa fase com mais conforto, equilíbrio e disposição, aproveitando cada momento ao máximo.",
+        "image": "https://data.decoassets.com/lojavidamina/f2784b74-d2e4-4062-b91f-8619a873084a/Design-sem-nome-(32).png",
+        "description": "A Vida Longa foi criada para quem deseja envelhecer com mais saúde e qualidade de vida. Com uma combinação de ingredientes que promovem o rejuvenescimento celular e ajudam a prevenir doenças, essa linha auxilia no aumento do seu healthspan, garantindo mais vitalidade e disposição para você aproveitar cada momento com energia e bem-estar.",
         "placement": "right",
-        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Bem-estar completo na menopausa com Vida Plena!</span></strong></span></p>"
+        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Rejuvenesça e viva mais com Vida Longa!</span></strong></span></p>"
       }
     },
     {
@@ -95,6 +95,6 @@
       }
     }
   ],
-  "name": "Categoria:Vida Plena",
-  "path": "/category/vida-plena"
+  "name": "Categoria:Vida Longa",
+  "path": "/category/vida-longa"
 }

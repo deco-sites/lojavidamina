@@ -83,7 +83,22 @@
                 {
                   "href": "/category/vida-plena",
                   "label": "Vida Plena",
-                  "image": "https://data.decoassets.com/lojavidamina/f2784b74-d2e4-4062-b91f-8619a873084a/Design-sem-nome-(32).png"
+                  "image": "https://data.decoassets.com/lojavidamina/3f99f5c1-aaa0-4be3-9842-17b0f75b8270/Design-sem-nome-(36).png"
+                },
+                {
+                  "image": "https://data.decoassets.com/lojavidamina/0c459ed6-8761-460d-9e5e-8304edcb2a1f/Design-sem-nome-(34).png",
+                  "href": "/category/vida-bela",
+                  "label": "Vida Bela"
+                },
+                {
+                  "href": "/category/vida-forte",
+                  "label": "Vida Forte",
+                  "image": "https://data.decoassets.com/lojavidamina/da40ffb9-a76b-42f8-a906-60d96c194c6c/Design-sem-nome-(35).png"
+                },
+                {
+                  "image": "https://data.decoassets.com/lojavidamina/f2784b74-d2e4-4062-b91f-8619a873084a/Design-sem-nome-(32).png",
+                  "href": "/category/vida-longa",
+                  "label": "Vida Longa"
                 }
               ]
             }

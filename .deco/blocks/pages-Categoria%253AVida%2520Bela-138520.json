@@ -27,11 +27,11 @@
         "banners": [
           {
             "image": {
-              "desktop": "https://data.decoassets.com/lojavidamina/f8c2f0e5-1e8f-4834-a2b2-9d8b3930fabb/healthy-food-(5).png",
-              "mobile": "https://data.decoassets.com/lojavidamina/f8c2f0e5-1e8f-4834-a2b2-9d8b3930fabb/healthy-food-(5).png"
+              "desktop": "https://data.decoassets.com/lojavidamina/75feb693-fcb4-400c-80c0-f74c174b4223/healthy-food-(8).png",
+              "mobile": "https://data.decoassets.com/lojavidamina/75feb693-fcb4-400c-80c0-f74c174b4223/healthy-food-(8).png"
             },
-            "title": "Vida Plena",
-            "subtitle": "Para equilíbrio na menopausa"
+            "title": "Vida Bela",
+            "subtitle": "Beleza de dentro para fora"
           }
         ]
       }
@@ -49,7 +49,7 @@
           "selectedFacets": [
             {
               "key": "category-1",
-              "value": "VidaPlena"
+              "value": "VidaBela"
             }
           ]
         },
@@ -62,10 +62,10 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Content/Hero.tsx",
-        "image": "https://data.decoassets.com/lojavidamina/3f99f5c1-aaa0-4be3-9842-17b0f75b8270/Design-sem-nome-(36).png",
-        "description": "A Vida Plena foi desenvolvida para oferecer suporte integral durante a menopausa. Com fórmulas que equilibram o corpo e a mente, essa linha atenua sintomas como ondas de calor, alterações de humor e falta de energia, proporcionando mais bem-estar e qualidade de vida. Viva essa fase com mais conforto, equilíbrio e disposição, aproveitando cada momento ao máximo.",
+        "image": "https://data.decoassets.com/lojavidamina/0c459ed6-8761-460d-9e5e-8304edcb2a1f/Design-sem-nome-(34).png",
+        "description": "A Vida Bela traz suplementos inovadores para realçar sua beleza de dentro para fora. Com ingredientes que fortalecem cabelo, pele e unhas, essa linha promove hidratação, elasticidade e um aspecto mais jovem e saudável. Nutra seu corpo com fórmulas que realçam sua beleza natural e proporcionam um cuidado completo para você se sentir bem todos os dias.",
         "placement": "right",
-        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Bem-estar completo na menopausa com Vida Plena!</span></strong></span></p>"
+        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Pele, cabelo e unhas mais saudáveis com Vida Bela!</span></strong></span></p>"
       }
     },
     {
@@ -95,6 +95,6 @@
       }
     }
   ],
-  "name": "Categoria:Vida Plena",
-  "path": "/category/vida-plena"
+  "name": "Categoria:Vida Bela",
+  "path": "/category/vida-bela"
 }
