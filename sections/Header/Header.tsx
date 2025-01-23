@@ -206,6 +206,9 @@ function Header({
 }: Props) {
   const device = useDevice();
   const user = typeof window !== "undefined" ? window.STOREFRONT?.USER?.getUser() : null;
+  setInterval(() => {
+    console.error("Estou testando");
+  }, 5000);
   return (
     <header
       style={{
