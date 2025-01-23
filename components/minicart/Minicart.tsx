@@ -229,7 +229,9 @@ export default function Cart(
                       </output>
                     </div>
                     <span class="text-sm text-base-300">
-                      Taxas e frete serão calculados no checkout<br>
+                      Taxas e frete serão calculados no checkout
+                    </span>
+                    <span class="text-sm text-base-300">
                       * Frete grátis apenas para envios com destino a Bahia e Sergipe
                     </span>
                   </div>
