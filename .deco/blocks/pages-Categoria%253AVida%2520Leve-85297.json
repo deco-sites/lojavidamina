@@ -55,7 +55,10 @@
                     "value": "VidaLeve"
                   }
                 ],
-                "count": 12
+                "count": 8
+              },
+              "layout": {
+                "pagination": "show-more"
               }
             }
           },

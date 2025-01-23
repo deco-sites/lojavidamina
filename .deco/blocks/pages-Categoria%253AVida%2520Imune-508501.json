@@ -39,14 +39,22 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Product/ProductShelf.tsx",
-        "products": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-          "props": {
-            "sort": "price:desc",
-            "collection": "142",
-            "count": 100
-          }
+        "__resolveType": "site/sections/Product/SearchResult.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+          "query": "usevidamina",
+          "count": 8,
+          "sort": "name:asc",
+          "fuzzy": "automatic",
+          "selectedFacets": [
+            {
+              "key": "category-1",
+              "value": "VidaImune"
+            }
+          ]
+        },
+        "layout": {
+          "pagination": "show-more"
         }
       }
     },
