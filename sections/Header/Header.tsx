@@ -54,7 +54,6 @@ const Desktop = ({ navItems, logo, searchbar, loading, user }: Props) => (
   <>
     <Modal id={SEARCHBAR_POPUP_ID}>
       <div
-        id={user}
         class="absolute top-0 bg-base-100 container"
         style={{ marginTop: HEADER_HEIGHT_MOBILE }}
       >
