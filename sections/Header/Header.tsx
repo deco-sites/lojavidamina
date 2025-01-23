@@ -46,11 +46,9 @@ export interface SectionProps {
    * @description Usefull for lazy loading hidden elements, like hamburguer menus etc
    * @hide true */
   loading?: "eager" | "lazy";
-
-  user: any
 }
 type Props = Omit<SectionProps, "alert">;
-const Desktop = ({ navItems, logo, searchbar, loading, user }: Props) => (
+const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
   <>
     <Modal id={SEARCHBAR_POPUP_ID}>
       <div
@@ -92,9 +90,6 @@ const Desktop = ({ navItems, logo, searchbar, loading, user }: Props) => (
         </label>
 
         <div class="flex gap-4 place-self-end">
-          <p>
-            {user}
-          </p>
           <a href="/login">
             <img src="https://data.decoassets.com/lojavidamina/d6ea5db3-5843-44e2-b7ad-d0a1880fc561/user-thin.png" alt="login" width="32" height="32" />
           </a>
@@ -205,7 +200,6 @@ function Header({
   ...props
 }: Props) {
   const device = useDevice();
-  const user = typeof window !== "undefined" ? window.STOREFRONT?.USER?.getUser() : null;
   setInterval(() => {
     console.error("Estou testando");
   }, 5000);
@@ -220,7 +214,7 @@ function Header({
       <div class="bg-base-100 fixed w-full z-40">
         {alerts.length > 0 && <Alert alerts={alerts} />}
         {device === "desktop"
-          ? <Desktop logo={logo} {...props} user={user} />
+          ? <Desktop logo={logo} {...props} />
           : <Mobile logo={logo} {...props} />}
       </div>
     </header>
