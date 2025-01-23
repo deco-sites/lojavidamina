@@ -90,7 +90,7 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
         </label>
 
         <div class="flex gap-4 place-self-end">
-          <a href="/login">
+          <a href="/login" id="user-options">
             <img src="https://data.decoassets.com/lojavidamina/d6ea5db3-5843-44e2-b7ad-d0a1880fc561/user-thin.png" alt="login" width="32" height="32" />
           </a>
           <Bag />
