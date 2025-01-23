@@ -46,12 +46,15 @@ export interface SectionProps {
    * @description Usefull for lazy loading hidden elements, like hamburguer menus etc
    * @hide true */
   loading?: "eager" | "lazy";
+
+  user: any
 }
 type Props = Omit<SectionProps, "alert">;
-const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
+const Desktop = ({ navItems, logo, searchbar, loading, user }: Props) => (
   <>
     <Modal id={SEARCHBAR_POPUP_ID}>
       <div
+        id={user}
         class="absolute top-0 bg-base-100 container"
         style={{ marginTop: HEADER_HEIGHT_MOBILE }}
       >
@@ -90,7 +93,7 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
         </label>
 
         <div class="flex gap-4 place-self-end">
-          <a href={`${(window.STOREFRONT.USER.getUser().email ? '/account' : '/login')}`}>
+          <a href="/login">
             <img src="https://data.decoassets.com/lojavidamina/d6ea5db3-5843-44e2-b7ad-d0a1880fc561/user-thin.png" alt="login" width="32" height="32" />
           </a>
           <Bag />
@@ -200,6 +203,7 @@ function Header({
   ...props
 }: Props) {
   const device = useDevice();
+  const user = window.STOREFRONT.USER.getUser();
   return (
     <header
       style={{
@@ -211,7 +215,7 @@ function Header({
       <div class="bg-base-100 fixed w-full z-40">
         {alerts.length > 0 && <Alert alerts={alerts} />}
         {device === "desktop"
-          ? <Desktop logo={logo} {...props} />
+          ? <Desktop logo={logo} {...props} user={user} />
           : <Mobile logo={logo} {...props} />}
       </div>
     </header>
