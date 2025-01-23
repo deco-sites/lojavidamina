@@ -202,7 +202,7 @@ function Header({
   ...props
 }: Props) {
   const device = useDevice();
-  const user = 'teste';
+  const user = typeof window !== "undefined" ? window.STOREFRONT?.USER?.getUser() : null;
   return (
     <header
       style={{
