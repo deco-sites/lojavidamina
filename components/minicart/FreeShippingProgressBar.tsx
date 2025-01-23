@@ -22,10 +22,10 @@ function FreeShippingProgressBar({ target, total, currency, locale }: Props) {
           ? (
             <label for={id}>
               Faltam {formatPrice(remaining, currency, locale)}{" "}
-              para ganhar frete grátis!
+              para ganhar frete grátis! *
             </label>
           )
-          : <label for={id}>Você ganhou frete grátis!</label>}
+          : <label for={id}>Você ganhou frete grátis! *</label>}
       </div>
       <progress
         id={id}

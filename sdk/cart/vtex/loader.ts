@@ -33,7 +33,7 @@ export const cartFrom = (form: Cart, url: string): Minicart => {
       coupon: coupon,
       locale,
       currency,
-      freeShippingTarget: 350, //Editar o valor para frete grátis
+      freeShippingTarget: 100, //Editar o valor para frete grátis
       checkoutHref: "/checkout",
     },
   };
