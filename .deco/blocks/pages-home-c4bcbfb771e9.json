@@ -30,7 +30,8 @@
                 }
               }
             ],
-            "preload": false
+            "preload": false,
+            "interval": 5
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
