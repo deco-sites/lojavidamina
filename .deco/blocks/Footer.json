@@ -9,18 +9,8 @@
     },
     {
       "alt": "facebook",
-      "href": "#",
+      "href": "https://www.facebook.com/profile.php?id=61571454361885",
       "image": "https://data.decoassets.com/lojavidamina/010f2003-d848-486d-b2e1-894012890f01/Mask-group.png"
-    },
-    {
-      "alt": "Pinterest",
-      "href": "#",
-      "image": "https://data.decoassets.com/lojavidamina/9f79fde7-bfd6-4def-935b-51d29858f10e/Mask-group-2.png"
-    },
-    {
-      "alt": "X",
-      "href": "#",
-      "image": "https://data.decoassets.com/lojavidamina/18417328-bae6-4374-94c0-cb5624cf1ee8/Mask-group-3.png"
     }
   ],
   "paymentMethods": [
