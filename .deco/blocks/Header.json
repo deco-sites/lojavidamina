@@ -19,42 +19,69 @@
   },
   "navItems": [
     {
-      "children": [],
-      "url": "/category/vida-leve",
-      "name": "Vida Leve",
+      "children": [
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Leve",
+          "url": "/category/vida-leve"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Imune",
+          "url": "/category/vida-imune"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Ativa",
+          "url": "/category/vida-ativa"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Pura",
+          "url": "/category/vida-pura"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Calma",
+          "url": "/category/vida-calma"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Plena",
+          "url": "/category/vida-plena"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Bela",
+          "url": "/category/vida-bela"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Forte",
+          "url": "/category/vida-forte"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Vida Longa",
+          "url": "/category/vida-longa"
+        }
+      ],
+      "url": "#",
+      "name": "Linhas",
       "image": null
     },
     {
-      "url": "/category/vida-imune",
-      "name": "Vida Imune",
-      "children": [],
-      "image": null
-    },
-    {
-      "children": [],
-      "image": null,
-      "name": "Vida Ativa",
-      "url": "/category/vida-ativa"
-    },
-    {
-      "children": [],
-      "image": null,
-      "name": "Vida Pura",
-      "url": "/category/vida-pura"
-    },
-    {
-      "children": [],
-      "image": null,
-      "name": "Vida Calma",
-      "url": "/category/vida-calma"
-    },
-    {
-      "children": [],
-      "image": null,
-      "name": "Vida Plena",
-      "url": "/category/vida-plena"
-    },
-    {
+      "url": "#",
+      "name": "Categorias",
       "children": [
         {
           "children": [],
@@ -153,9 +180,7 @@
           "url": "/products?filter.category-1=sono"
         }
       ],
-      "image": null,
-      "name": "Categorias",
-      "url": "#"
+      "image": null
     }
   ],
   "loading": "eager"
