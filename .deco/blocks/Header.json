@@ -53,6 +53,109 @@
       "image": null,
       "name": "Vida Plena",
       "url": "/category/vida-plena"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "image": null,
+          "name": "Aumento de massa magra",
+          "url": "/products?filter.category-1=aumento-de-massa-magra"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Desempenho físico",
+          "url": "/products?filter.category-1=desempenho-fisico"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Detox",
+          "url": "/products?filter.category-1=detox"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Emagrecimento",
+          "url": "/products?filter.category-1=emagrecimento"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Energia",
+          "url": "/products?filter.category-1=energia"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Fortalecimento de unha e cabelo",
+          "url": "/products?filter.category-1=fortalecimento-unha-e-cabelo"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Fotoproteção",
+          "url": "/products?filter.category-1=fotoprotecao"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Imunidade",
+          "url": "/products?filter.category-1=imunidade"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Longevidade",
+          "url": "/products?filter.category-1=longevidade"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Memória e foco",
+          "url": "/products?filter.category-1=memoria-e-foco"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Menopausa",
+          "url": "/products?filter.category-1=menopausa"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Modulação intestinal",
+          "url": "/products?filter.category-1=modulacao-intestinal"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Saúde da mulher",
+          "url": "/products?filter.category-1=saude-da-mulher"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Saúde da pele",
+          "url": "/products?filter.category-1=saude-da-pele"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Saúde mental",
+          "url": "/products?filter.category-1=saude-mental"
+        },
+        {
+          "children": [],
+          "image": null,
+          "name": "Sono",
+          "url": "/products?filter.category-1=sono"
+        }
+      ],
+      "image": null,
+      "name": "Categorias",
+      "url": "#"
     }
   ],
   "loading": "eager"
