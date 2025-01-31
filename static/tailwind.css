@@ -607,6 +607,12 @@ html {
 @media (min-width: 1536px) {
 
   .container {
+    max-width: 1366px;
+  }
+}
+@media (min-width: 1660px) {
+
+  .container {
     max-width: 1536px;
   }
 }
