@@ -138,7 +138,7 @@ function ProductCard({
       </figure>
 
       <a href={relativeUrl} class="pt-5">
-        <span class="font-medium">
+        <span class="font-semibold product-card-title">
           {title}
         </span>
 

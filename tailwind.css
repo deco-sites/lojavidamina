@@ -92,4 +92,10 @@
 
 .product-card-price {
   font-size:24px;
+  color:#EDE707;
+}
+
+.product-card-title {
+  font-size:18px;
+  color:#A7A9AC;
 }
