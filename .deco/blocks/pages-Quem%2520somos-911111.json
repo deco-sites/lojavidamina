@@ -40,9 +40,9 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Content/Hero.tsx",
-        "description": "Bem-estar e cuidado com você fazem parte do nosso DNA. Somos uma marca do grupo Singular Pharma, uma empresa baiana farmacêutica única, que nasceu em 2015 mas tem na sua história farmacêuticos com 35 anos de experiência no mercado. Com uma visão ampla de saúde, a Singular Pharma tem como objetivo fornecer as melhores soluções e formulações manipuladas nas áreas de saúde preventiva, como gerenciamento de peso, longevidade, qualidade do sono, controle do stress e melhoria da função cognitiva.",
+        "description": "Compomos nove linhas: Vida Leve, Vida Imune, Vida Ativa, Vida Pura, Vida Calma, Vida Plena, Vida Bela, Vida Forte e Vida Longa. Com foco em cuidados com emagrecimento, imunidade, disposição, revitalização natural, bem-estar e equilíbrio. Fazemos parte do Grupo Singular, uma empresa baiana farmacêutica que nasceu em 2015 mas tem na sua história farmacêuticos com 35 anos de experiência no mercado. ",
         "image": "https://data.decoassets.com/lojavidamina/059c86d4-d440-44d0-9680-08bd59da6801/featured.png",
-        "title": "<p>Estamos presentes da gestação à longevidade, da perda de peso ao ganho de massa, da melhora do sono à melhora do foco: em todos os momentos, a Vidamina está ao seu lado para te impulsionar até o seu objetivo.</p>",
+        "title": "<p><span class=\"TextRun SCXW234915410 BCX0\" lang=\"PT-BR\" xml:lang=\"PT-BR\" data-contrast=\"none\"><span class=\"NormalTextRun SCXW234915410 BCX0\">A </span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW234915410 BCX0\">Vidamina</span><span class=\"NormalTextRun SCXW234915410 BCX0\"> acredita no poder da saúde personalizada e autônoma. Ela está presente em diversas fases da vida, da juventude à terceira idade. Seja para perda de peso ou ganho de massa, a </span><span class=\"NormalTextRun SpellingErrorV2Themed SCXW234915410 BCX0\">Vidamina</span><span class=\"NormalTextRun SCXW234915410 BCX0\"> é um fiel auxiliador para manutenção da saúde.</span></span></p>",
         "placement": "right"
       }
     },
