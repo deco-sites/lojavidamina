@@ -106,3 +106,9 @@
   margin-top:15px;
   justify-content:center !important;
 }
+
+@media screen and (min-width:1536px) and (max-width:1660px) {
+  .container {
+    max-width: 1366px !important;
+  }
+}
