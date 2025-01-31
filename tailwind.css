@@ -99,3 +99,9 @@
   font-size:16px;
   color:#231F20;
 }
+
+.product-card-cart-button {
+  background-color: #231F20 !important;
+  color:#FFF !important;
+  margin-top:15px;
+}
