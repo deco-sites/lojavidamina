@@ -103,11 +103,11 @@ function ProductInfo({ page }: Props) {
       </div>
 
       {/* Sku Selector */}
-      {hasValidVariants && (
+      {/* hasValidVariants && (
         <div className="mt-4 sm:mt-8">
           <ProductSelector product={product} />
         </div>
-      )}
+      ) */}
 
       {/* Description card */}
       <div class="mt-4 sm:mt-6">
