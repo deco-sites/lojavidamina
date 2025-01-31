@@ -5348,13 +5348,6 @@ details.collapse summary::-webkit-details-marker {
   @media (min-width: 1536px) {
 
     .xl\:container {
-      max-width: 1366px;
-    }
-  }
-
-  @media (min-width: 1660px) {
-
-    .xl\:container {
       max-width: 1536px;
     }
   }
