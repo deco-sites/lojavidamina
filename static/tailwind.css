@@ -5345,7 +5345,7 @@ details.collapse summary::-webkit-details-marker {
     }
   }
 
-  @media (min-width: 1536px) {
+  @media (min-width: 1600px) { /* fiz alterações aqui */
 
     .xl\:container {
       max-width: 1536px;
