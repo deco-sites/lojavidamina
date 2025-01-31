@@ -105,6 +105,21 @@ function ProductInfo({ page }: Props) {
         </div>
       )}
 
+      {/* Description card */}
+      <div class="mt-4 sm:mt-6">
+        <span class="text-sm">
+          {description && (
+            <details open>
+              <summary class="cursor-pointer">Descrição do produto</summary>
+              <div
+                class="ml-2 mt-2"
+                dangerouslySetInnerHTML={{ __html: description }}
+              />
+            </details>
+          )}
+        </span>
+      </div>
+
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 sm:mt-10 flex flex-col gap-2">
         {availability === "https://schema.org/InStock"
@@ -121,21 +136,6 @@ function ProductInfo({ page }: Props) {
             </>
           )
           : <OutOfStock productID={productID} />}
-      </div>
-      
-      {/* Description card */}
-      <div class="mt-4 sm:mt-6">
-        <span class="text-sm">
-          {description && (
-            <details>
-              <summary class="cursor-pointer">Descrição do produto</summary>
-              <div
-                class="ml-2 mt-2"
-                dangerouslySetInnerHTML={{ __html: description }}
-              />
-            </details>
-          )}
-        </span>
       </div>
 
       {/* Shipping Simulation */}
