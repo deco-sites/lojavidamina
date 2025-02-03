@@ -112,3 +112,12 @@
     max-width: 1366px !important;
   }
 }
+
+.disclaimer {
+  margin-top:25px;
+}
+
+.disclaimer p {
+  font-size:12px;
+  color:#231F20;
+}
