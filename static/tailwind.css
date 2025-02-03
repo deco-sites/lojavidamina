@@ -607,12 +607,6 @@ html {
 @media (min-width: 1536px) {
 
   .container {
-    max-width: 1366px;
-  }
-}
-@media (min-width: 1660px) {
-
-  .container {
     max-width: 1536px;
   }
 }
@@ -5095,6 +5089,38 @@ details.collapse summary::-webkit-details-marker {
 
 .category-list .category-filter {
   display:none !important;
+}
+
+.product-card-price {
+  font-size:24px;
+  color:#EDE707;
+}
+
+.product-card-title {
+  font-size:16px;
+  color:#231F20;
+}
+
+.product-card-cart-button {
+  background-color: #231F20 !important;
+  color:#FFF !important;
+  margin-top:15px;
+  justify-content:center !important;
+}
+
+@media screen and (min-width:1536px) and (max-width:1660px) {
+  .container {
+    max-width: 1366px !important;
+  }
+}
+
+.disclaimer {
+  margin-top:25px;
+}
+
+.disclaimer p {
+  font-size:12px;
+  color:#231F20;
 }
 
 .invalid\:input-error:invalid {

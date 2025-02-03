@@ -117,6 +117,10 @@ function Footer({
             <p><span class="text-sm font-normal text-base-400">05.794.416/0001-42 - Singular Farmacia de Manipulação</span></p>
           </div>
         </div>
+
+        <div class="disclaimer">
+          <p>Os textos de todos os nossos produtos são referentes à descrição técnica dos mesmos, não configurando propaganda ou estímulo a automedicação.</p>
+        </div>
       </div>
     </footer>
   );
