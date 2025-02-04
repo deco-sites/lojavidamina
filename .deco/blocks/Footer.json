@@ -38,11 +38,15 @@
   ],
   "policies": [
     {
-      "title": "Política de Privacidade",
+      "title": "Política de privacidade",
       "href": "/privacy-policy"
     },
     {
       "title": "Política de entrega",
+      "href": "#"
+    },
+    {
+      "title": "Política de troca",
       "href": "#"
     }
   ],
