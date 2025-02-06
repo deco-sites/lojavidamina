@@ -5114,6 +5114,12 @@ details.collapse summary::-webkit-details-marker {
   }
 }
 
+@media screen and (min-width:1200px) and (max-width:1300px) {
+  .container {
+    max-width: 1024px !important;
+  }
+}
+
 .disclaimer {
   margin-top:25px;
 }

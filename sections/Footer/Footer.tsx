@@ -115,6 +115,7 @@ function Footer({
           <div style="justify-content:flex-end !important;z-index:9999999;flex-wrap:wrap !important;" class="flex items-center justify-center gap-4 institutional-links">
             <p><span class="text-sm font-normal text-base-400"><a href="/about-us">Quem somos</a></span></p>
             <p><span class="text-sm font-normal text-base-400">05.794.416/0001-42 - Singular Farmacia de Manipulação</span></p>
+            <p><span class="text-sm font-normal text-base-400">05.794.416/0004-95 - Singular Farmacia de Manipulação</span></p>
           </div>
         </div>
 
