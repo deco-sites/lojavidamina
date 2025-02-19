@@ -6,5 +6,5 @@ interface Props {
 }
 
 export default function Section({ name = "Capy" }: Props) {
-  return <div>Hello {name}!</div>
+  return <iframe src="https://www.usevidamina.com.br/login?returnUrl=/account" title="Login Page"></iframe>
 }
