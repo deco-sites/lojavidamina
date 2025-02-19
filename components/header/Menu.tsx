@@ -44,7 +44,16 @@ function Menu({ navItems = [] }: Props) {
         <li>
           <a
             class="flex items-center gap-4 px-4 py-2"
-            href="#"
+            href="/my-account"
+          >
+            <Icon id="user" />
+            <span class="text-sm">Acesse sua conta</span>
+          </a>
+        </li>
+        <li>
+          <a
+            class="flex items-center gap-4 px-4 py-2"
+            href="/contact-us"
           >
             <Icon id="call" />
             <span class="text-sm">Fale conosco</span>
