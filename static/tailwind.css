@@ -5129,6 +5129,22 @@ details.collapse summary::-webkit-details-marker {
   color:#231F20;
 }
 
+#contact-form-iframe {
+  width:100%;
+}
+
+@media screen and (max-width:960px) {
+  #contact-form-iframe {
+    height:100vh;
+  }
+}
+
+@media screen and (min-width:960px) {
+  #contact-form-iframe {
+    height:60vh;
+  }
+}
+
 .invalid\:input-error:invalid {
   --tw-border-opacity: 1;
   border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
