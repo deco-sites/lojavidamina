@@ -50,6 +50,7 @@
 
   .policies-links {
     text-align:center;
+    flex-direction:row !important;
   }
 
   .footer-logos {
