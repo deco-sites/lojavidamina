@@ -47,7 +47,7 @@
             "__resolveType": "website/functions/requestToParam.ts",
             "param": "slug"
           },
-          "crossSelling": "suggestions",
+          "crossSelling": "showtogether",
           "count": 4
         },
         "title": "Veja também"
