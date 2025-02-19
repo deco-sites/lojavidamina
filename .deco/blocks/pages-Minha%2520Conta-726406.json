@@ -1,0 +1,58 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Vida Calma"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/Wishlist.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/product/wishlist.ts",
+          "count": 8,
+          "offset": 0
+        },
+        "layout": {
+          "pagination": "pagination"
+        },
+        "startingPage": 0
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
+        "empty": {
+          "title": "Inscreva-se e recebe novidades exclusivas",
+          "description": "Inscreva-se no formulário ao lado e receba em primeira mão novidades sobre os nossos suplementos:"
+        },
+        "success": {
+          "title": "Obrigado por se inscrever!",
+          "description": "Você agora receberá em tempo real novidades sobre os nossos suplementos!"
+        },
+        "failed": {
+          "title": "Oops!. Something went wrong!",
+          "description": "Something went wrong. Please try again. If the problem persists, please contact us."
+        },
+        "label": "Inscreva-me",
+        "placeholder": "email@exemplo.com"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "name": "Minha Conta",
+  "path": "/my-account"
+}
