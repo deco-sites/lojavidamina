@@ -59,47 +59,47 @@
                 {
                   "label": "Vida Leve",
                   "href": "/category/vida-leve",
-                  "image": "https://data.decoassets.com/lojavidamina/af661a75-a61c-4393-b602-0e32b13ceed6/Design-sem-nome-(26).png"
+                  "image": "https://data.decoassets.com/lojavidamina/9433d8bf-32fd-47fc-ad7a-375a144dc357/VIDAMINA-Imagem-Site-Vida-Leve.png"
                 },
                 {
                   "href": "/category/vida-imune",
                   "label": "Vida Imune",
-                  "image": "https://data.decoassets.com/lojavidamina/5da2f0c5-d432-47d5-8e62-c09965696d90/Design-sem-nome-(27).png"
+                  "image": "https://data.decoassets.com/lojavidamina/b0ff0494-0aa4-402d-85e3-428c918dcd8d/VIDAMINA-Imagem-Site-Vida-Imune.png"
                 },
                 {
-                  "href": "/category/vida-ativa",
-                  "label": "Vida Ativa",
-                  "image": "https://data.decoassets.com/lojavidamina/72cc855c-7ab2-4a3c-9621-1345a32f7b15/Design-sem-nome-(29).png"
+                  "href": "/category/vida-longa",
+                  "label": "Vida Longa",
+                  "image": "https://data.decoassets.com/lojavidamina/6106c97f-8aab-491e-9706-7546f09610ef/VIDAMINA-Imagem-Site-Vida-Longa.png"
                 },
                 {
                   "href": "/category/vida-pura",
                   "label": "Vida Pura",
-                  "image": "https://data.decoassets.com/lojavidamina/d20dba64-4feb-4978-94cb-8b88298d4d17/Design-sem-nome-(30).png"
+                  "image": "https://data.decoassets.com/lojavidamina/2a1bcb10-acc1-4fc1-8ac6-4a829cfa83bf/VIDAMINA-Imagem-Site-Vida-Pura.png"
                 },
                 {
                   "href": "/category/vida-calma",
                   "label": "Vida Calma",
-                  "image": "https://data.decoassets.com/lojavidamina/9c25e2c3-04af-4494-b4e8-86a5999eb599/Design-sem-nome-(31).png"
-                },
-                {
-                  "href": "/category/vida-plena",
-                  "label": "Vida Plena",
-                  "image": "https://data.decoassets.com/lojavidamina/3f99f5c1-aaa0-4be3-9842-17b0f75b8270/Design-sem-nome-(36).png"
-                },
-                {
-                  "image": "https://data.decoassets.com/lojavidamina/0c459ed6-8761-460d-9e5e-8304edcb2a1f/Design-sem-nome-(34).png",
-                  "href": "/category/vida-bela",
-                  "label": "Vida Bela"
+                  "image": "https://data.decoassets.com/lojavidamina/a3abd325-8b8d-4da8-b8c1-923043267bf4/VIDAMINA-Imagem-Site-Vida-Calma.png"
                 },
                 {
                   "href": "/category/vida-forte",
                   "label": "Vida Forte",
-                  "image": "https://data.decoassets.com/lojavidamina/da40ffb9-a76b-42f8-a906-60d96c194c6c/Design-sem-nome-(35).png"
+                  "image": "https://data.decoassets.com/lojavidamina/01b57681-3e5a-43e9-ac26-7ee39662f92d/VIDAMINA-Imagem-Site-Vida-Forte.png"
                 },
                 {
-                  "image": "https://data.decoassets.com/lojavidamina/f2784b74-d2e4-4062-b91f-8619a873084a/Design-sem-nome-(32).png",
-                  "href": "/category/vida-longa",
-                  "label": "Vida Longa"
+                  "image": "https://data.decoassets.com/lojavidamina/344c5064-3d35-45d3-ab48-95c16df6b651/VIDAMINA-Imagem-Site-Vida-Plena.png",
+                  "href": "/category/vida-plena",
+                  "label": "Vida Plena"
+                },
+                {
+                  "href": "/category/vida-ativa",
+                  "label": "Vida Ativa",
+                  "image": "https://data.decoassets.com/lojavidamina/c04526ca-4843-4e9d-96d7-51ba7595d7cc/VIDAMINA-Imagem-Site-Vida-Ativa.png"
+                },
+                {
+                  "image": "https://data.decoassets.com/lojavidamina/d077a408-e743-4b52-ba33-5c35aaac7dbe/VIDAMINA-Imagem-Site-Vida-Bela.png",
+                  "href": "/category/vida-bela",
+                  "label": "Vida Bela"
                 }
               ]
             }
