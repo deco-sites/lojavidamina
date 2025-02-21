@@ -25,7 +25,6 @@ import * as $$$$$$7 from "./sections/Content/Intro.tsx";
 import * as $$$$$$8 from "./sections/Content/Logos.tsx";
 import * as $$$$$$9 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$10 from "./sections/Header/Header.tsx";
-import * as $$$$$$11 from "./sections/Iframe.tsx";
 import * as $$$$$$12 from "./sections/Images/Banner.tsx";
 import * as $$$$$$13 from "./sections/Images/Carousel.tsx";
 import * as $$$$$$14 from "./sections/Images/ImageGallery.tsx";
