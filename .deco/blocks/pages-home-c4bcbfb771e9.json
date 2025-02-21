@@ -92,14 +92,14 @@
                   "label": "Vida Plena"
                 },
                 {
-                  "href": "/category/vida-ativa",
-                  "label": "Vida Ativa",
-                  "image": "https://data.decoassets.com/lojavidamina/c04526ca-4843-4e9d-96d7-51ba7595d7cc/VIDAMINA-Imagem-Site-Vida-Ativa.png"
+                  "href": "/category/vida-bela",
+                  "label": "Vida Bela",
+                  "image": "https://data.decoassets.com/lojavidamina/d077a408-e743-4b52-ba33-5c35aaac7dbe/VIDAMINA-Imagem-Site-Vida-Bela.png"
                 },
                 {
-                  "image": "https://data.decoassets.com/lojavidamina/d077a408-e743-4b52-ba33-5c35aaac7dbe/VIDAMINA-Imagem-Site-Vida-Bela.png",
-                  "href": "/category/vida-bela",
-                  "label": "Vida Bela"
+                  "image": "https://data.decoassets.com/lojavidamina/c04526ca-4843-4e9d-96d7-51ba7595d7cc/VIDAMINA-Imagem-Site-Vida-Ativa.png",
+                  "href": "/category/vida-ativa",
+                  "label": "Vida Ativa"
                 }
               ]
             }
