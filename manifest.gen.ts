@@ -65,7 +65,6 @@ const manifest = {
     "site/sections/Content/Logos.tsx": $$$$$$8,
     "site/sections/Footer/Footer.tsx": $$$$$$9,
     "site/sections/Header/Header.tsx": $$$$$$10,
-    "site/sections/Iframe.tsx": $$$$$$11,
     "site/sections/Images/Banner.tsx": $$$$$$12,
     "site/sections/Images/Carousel.tsx": $$$$$$13,
     "site/sections/Images/ImageGallery.tsx": $$$$$$14,
