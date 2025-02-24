@@ -23,12 +23,11 @@ function ProductInfo({ page }: Props) {
   }
 
   const { breadcrumbList, product } = page;
+  console.table(product);
   const { productID, offers, isVariantOf } = product;
   const description = product.description || isVariantOf?.description;
   const title = isVariantOf?.name ?? product.name;
   const auxiliarDescription = product.complementName; //Descrição auxiliar
-
-  console.log(product);
 
   const {
     price = 0,
