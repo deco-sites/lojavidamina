@@ -14,6 +14,8 @@ export default function ProductDetails({ page }: Props) {
   /**
    * Rendered when a not found is returned by any of the loaders run on this page
    */
+  console.log(page);
+  
   if (!page) {
     return (
       <div class="w-full flex justify-center items-center py-28">
