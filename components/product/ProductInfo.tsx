@@ -23,11 +23,9 @@ function ProductInfo({ page }: Props) {
   }
 
   const { breadcrumbList, product } = page;
-  console.table(product);
   const { productID, offers, isVariantOf } = product;
   const description = product.description || isVariantOf?.description;
   const title = isVariantOf?.name ?? product.name;
-  const auxiliarDescription = product.complementName; //Descrição auxiliar
 
   const {
     price = 0,
@@ -121,7 +119,7 @@ function ProductInfo({ page }: Props) {
                 class="ml-2 mt-2"
                 dangerouslySetInnerHTML={{ __html: description }}
               />
-              <p>{auxiliarDescription}</p>
+              <p style="display:none">{product}</p>
             </details>
           )}
         </span>
