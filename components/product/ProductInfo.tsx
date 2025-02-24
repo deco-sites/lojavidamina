@@ -26,6 +26,7 @@ function ProductInfo({ page }: Props) {
   const { productID, offers, isVariantOf } = product;
   const description = product.description || isVariantOf?.description;
   const title = isVariantOf?.name ?? product.name;
+  const productTest = product.origin;
 
   const {
     price = 0,
@@ -119,6 +120,7 @@ function ProductInfo({ page }: Props) {
                 class="ml-2 mt-2"
                 dangerouslySetInnerHTML={{ __html: description }}
               />
+              <p style="display:none">{productTest}</p>
             </details>
           )}
         </span>
