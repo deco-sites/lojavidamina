@@ -28,6 +28,8 @@ function ProductInfo({ page }: Props) {
   const title = isVariantOf?.name ?? product.name;
   const auxiliarDescription = product.complementName; //Descrição auxiliar
 
+  console.log(product);
+
   const {
     price = 0,
     listPrice,
