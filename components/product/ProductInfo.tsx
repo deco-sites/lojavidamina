@@ -119,7 +119,6 @@ function ProductInfo({ page }: Props) {
                 class="ml-2 mt-2"
                 dangerouslySetInnerHTML={{ __html: description }}
               />
-              <p style="display:none">{{product}}</p>
             </details>
           )}
         </span>
