@@ -26,6 +26,7 @@ function ProductInfo({ page }: Props) {
   const { productID, offers, isVariantOf } = product;
   const description = product.description || isVariantOf?.description;
   const title = isVariantOf?.name ?? product.name;
+  const additionalInfo = product.alternateName;
   const productTest = JSON.stringify(product);
 
   const {
@@ -101,6 +102,10 @@ function ProductInfo({ page }: Props) {
         <span class="line-through text-sm font-medium text-gray-400">
           {formatPrice(listPrice, offers?.priceCurrency)}
         </span>
+      </div>
+
+      <div>
+        <p>{additionalInfo}</p>
       </div>
 
       {/* Sku Selector */}
