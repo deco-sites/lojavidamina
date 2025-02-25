@@ -105,7 +105,7 @@ function ProductInfo({ page }: Props) {
       </div>
 
       <div>
-        <p>{additionalInfo}</p>
+        <p class="font-medium text-base-400">{additionalInfo}</p>
       </div>
 
       {/* Sku Selector */}
@@ -127,9 +127,10 @@ function ProductInfo({ page }: Props) {
               />
             </details>
           )}
-          {productTest && (
+          { //Teste feito com o formato de JSON dos produtos vindos do Intelligent Search
+          /*productTest && (
             <p style="display:none">{productTest}</p>
-          )}
+          )*/}
         </span>
       </div>
 
