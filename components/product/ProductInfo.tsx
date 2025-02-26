@@ -105,7 +105,7 @@ function ProductInfo({ page }: Props) {
       </div>
 
       <div>
-        <p class="font-medium text-base-400">{additionalInfo}</p>
+        <p class="font-medium text-base-400" style="margin-top:0.75rem">{additionalInfo}</p>
       </div>
 
       {/* Sku Selector */}
