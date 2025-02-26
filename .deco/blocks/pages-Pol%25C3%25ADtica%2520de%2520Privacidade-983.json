@@ -29,13 +29,13 @@
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "Footer"
+              "__resolveType": "site/sections/PrivacyPolicyText.tsx"
             }
           },
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
-              "__resolveType": "site/sections/PrivacyPolicyText.tsx"
+              "__resolveType": "Footer"
             }
           }
         ],
