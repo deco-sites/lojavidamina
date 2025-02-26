@@ -29,6 +29,12 @@
           {
             "__resolveType": "website/sections/Rendering/Lazy.tsx",
             "section": {
+              "__resolveType": "site/sections/ShippingPolicyText.tsx"
+            }
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
               "__resolveType": "Footer"
             }
           }
