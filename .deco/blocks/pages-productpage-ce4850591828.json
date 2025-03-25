@@ -43,12 +43,7 @@
         "__resolveType": "site/sections/Product/ProductShelf.tsx",
         "products": {
           "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts",
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
-          },
-          "crossSelling": "showtogether",
-          "count": 4
+          "crossSelling": "similars"
         },
         "title": "Veja também"
       }
