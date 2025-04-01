@@ -15,17 +15,12 @@
             "__resolveType": "site/sections/Images/Carousel.tsx",
             "images": [
               {
-                "desktop": "https://data.decoassets.com/lojavidamina/48c4ce68-24c5-4cc7-a2be-ab8f53a33fa7/Semana-Consumidor-Vidamina-BannerSite.jpg",
-                "mobile": "https://data.decoassets.com/lojavidamina/34487fec-620c-4de7-bf4a-9939a52fdd49/Banners-site-e-topoMobile_2.jpg",
-                "alt": "Semana do consumidor Vidamina"
-              },
-              {
                 "desktop": "https://data.decoassets.com/lojavidamina/befbe50d-818a-4366-b40f-0886dd5eff48/Banner-site-Vidamina01-(1).png",
                 "mobile": "https://data.decoassets.com/lojavidamina/937dcea4-472d-4c2c-ac76-3b9087b44712/1.png",
+                "alt": "#1",
                 "action": {
                   "href": "/products"
-                },
-                "alt": "#1"
+                }
               },
               {
                 "desktop": "https://data.decoassets.com/lojavidamina/1ec03f8d-f206-4fe7-b524-e1b9037cb531/Banner-site-Vidamina02.png",
