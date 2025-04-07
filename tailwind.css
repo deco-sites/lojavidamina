@@ -177,3 +177,39 @@
   color:#000;
   font-weight:500;
 }
+
+.topbar .content {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:640px) {
+  .topbar .content {
+    max-width: 640px;
+  }
+}
+
+@media (min-width:768px) {
+  .topbar .content {
+    max-width: 768px;
+  }
+}
+
+@media (min-width:1024px) {
+  .topbar .content {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width:1280px) {
+  .topbar .content {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width:1536px) {
+  .topbar .content {
+    max-width: 1536px;
+  }
+}
