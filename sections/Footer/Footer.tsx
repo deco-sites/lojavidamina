@@ -56,36 +56,36 @@ function Footer() {
           <div class="column-linhas">
             <p class="title">LINHAS</p>
 
-            <a href="#">Vida Leve</a>
-            <a href="#">Vida Imune</a>
-            <a href="#">Vida Longa</a>
-            <a href="#">Vida Pura</a>
-            <a href="#">Vida Calma</a>
-            <a href="#">Vida Forte</a>
-            <a href="#">Vida Plena</a>
-            <a href="#">Vida Bela</a>
-            <a href="#">Vida Ativa</a>
+            <a href="/category/vida-leve">Vida Leve</a>
+            <a href="/category/vida-imune">Vida Imune</a>
+            <a href="/category/vida-longa">Vida Longa</a>
+            <a href="/category/vida-pura">Vida Pura</a>
+            <a href="/category/vida-calma">Vida Calma</a>
+            <a href="/category/vida-forte">Vida Forte</a>
+            <a href="/category/vida-plena">Vida Plena</a>
+            <a href="/category/vida-bela">Vida Bela</a>
+            <a href="/category/vida-ativa">Vida Ativa</a>
           </div>
 
           <div class="column-beneficios">
             <p class="title">BENEFÍCIOS</p>
 
-            <a href="#">Aumento de massa magra</a>
-            <a href="#">Desempenho físico</a>
-            <a href="#">Detox</a>
-            <a href="#">Emagrecimento</a>
-            <a href="#">Energia</a>
-            <a href="#">Fortalecimento de unha e cabelo</a>
-            <a href="#">Fotoproteção</a>
-            <a href="#">Imunidade</a>
-            <a href="#">Longevidade</a>
-            <a href="#">Memória e foco</a>
-            <a href="#">Menopausa</a>
-            <a href="#">Modulação intestinal</a>
-            <a href="#">Saúde da mulher</a>
-            <a href="#">Saúde da pele</a>
-            <a href="#">Saúde mental</a>
-            <a href="#">Sono</a>
+            <a href="/products?filter.category-1=aumento-de-massa-magra">Aumento de massa magra</a>
+            <a href="/products?filter.category-1=desempenho-fisico">Desempenho físico</a>
+            <a href="/products?filter.category-1=detox">Detox</a>
+            <a href="/products?filter.category-1=emagrecimento">Emagrecimento</a>
+            <a href="/products?filter.category-1=energia">Energia</a>
+            <a href="/products?filter.category-1=fortalecimento-unha-e-cabelo">Fortalecimento de unha e cabelo</a>
+            <a href="/products?filter.category-1=fotoprotecao">Fotoproteção</a>
+            <a href="/products?filter.category-1=imunidade">Imunidade</a>
+            <a href="/products?filter.category-1=longevidade">Longevidade</a>
+            <a href="/products?filter.category-1=memoria-e-foco">Memória e foco</a>
+            <a href="/products?filter.category-1=menopausa">Menopausa</a>
+            <a href="/products?filter.category-1=modulacao-intestinal">Modulação intestinal</a>
+            <a href="/products?filter.category-1=saude-da-mulher">Saúde da mulher</a>
+            <a href="/products?filter.category-1=saude-da-pele">Saúde da pele</a>
+            <a href="/products?filter.category-1=saude-mental">Saúde mental</a>
+            <a href="/products?filter.category-1=sono">Sono</a>
           </div>
 
           <div class="column-institucional">
@@ -96,11 +96,11 @@ function Footer() {
 
             <div>
               <p class="title">INSTITUCIONAL</p>
-              <a href="#">Quem somos</a>
+              <a href="/about-us">Quem somos</a>
               <a href="#">Nossos diferenciais</a>
-              <a href="#">Política de Privacidade</a>
-              <a href="#">Política de Entrega</a>
-              <a href="#">Política de Troca</a>
+              <a href="/privacy-policy">Política de Privacidade</a>
+              <a href="/shipping-policy">Política de Entrega</a>
+              <a href="/exchange-policy">Política de Troca</a>
             </div>
           </div>
 
@@ -127,8 +127,8 @@ function Footer() {
               <img src="https://assets.decocache.com/lojavidamina/c5b1b6ad-561b-4cbc-a812-213d585ef549/facebook-brands-1.png" />
             </div>
 
-            <a href="#">Fale conosco</a>
-            <a href="#">Acesse sua conta</a>
+            <a href="/contact-us">Fale conosco</a>
+            <a href="/my-account">Acesse sua conta</a>
           </div>
         </div>
 
