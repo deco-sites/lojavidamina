@@ -380,7 +380,7 @@ footer .container .columns .column-contato .socials {
   }
 }
 
-footer .container .columns .column-contato .socials img:not(:last-of-type) {
+footer .container .columns .column-contato .socials a:not(:last-of-type) {
   margin-right: 15px;
 }
 

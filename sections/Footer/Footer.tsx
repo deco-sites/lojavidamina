@@ -123,8 +123,12 @@ function Footer() {
 
           <div class="column-contato">
             <div class="socials">
-              <img src="https://assets.decocache.com/lojavidamina/a51231b0-8859-4699-a1bf-91217e105ad1/instagram-brands-1.png" />
-              <img src="https://assets.decocache.com/lojavidamina/c5b1b6ad-561b-4cbc-a812-213d585ef549/facebook-brands-1.png" />
+              <a href="https://www.instagram.com/usevidamina/">
+                <img src="https://assets.decocache.com/lojavidamina/a51231b0-8859-4699-a1bf-91217e105ad1/instagram-brands-1.png" />
+              </a>
+              <a href="#">
+                <img src="https://assets.decocache.com/lojavidamina/c5b1b6ad-561b-4cbc-a812-213d585ef549/facebook-brands-1.png" />
+              </a>
             </div>
 
             <a href="/contact-us">Fale conosco</a>
