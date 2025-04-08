@@ -1,5 +1,5 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
+// import Image from "apps/website/components/Image.tsx";
 import Section, {
   type Props as SectionHeaderProps,
 } from "../../components/ui/Section.tsx";

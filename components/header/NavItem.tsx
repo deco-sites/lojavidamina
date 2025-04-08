@@ -1,7 +1,7 @@
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import {
-  HEADER_HEIGHT_DESKTOP,
+  // HEADER_HEIGHT_DESKTOP,
   NAVBAR_HEIGHT_DESKTOP,
 } from "../../constants.ts";
 
@@ -28,7 +28,7 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
             style={{
               top: "0px",
               left: "0px",
-              marginTop: HEADER_HEIGHT_DESKTOP,
+              marginTop: "197px",
             }}
           >
             {image?.url && (

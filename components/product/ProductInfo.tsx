@@ -9,7 +9,7 @@ import ShippingSimulationForm from "../shipping/Form.tsx";
 import WishlistButton from "../wishlist/WishlistButton.tsx";
 import AddToCartButton from "./AddToCartButton.tsx";
 import OutOfStock from "./OutOfStock.tsx";
-import ProductSelector from "./ProductVariantSelector.tsx";
+// import ProductSelector from "./ProductVariantSelector.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
@@ -27,7 +27,6 @@ function ProductInfo({ page }: Props) {
   const description = product.description || isVariantOf?.description;
   const title = isVariantOf?.name ?? product.name;
   const additionalInfo = product.alternateName;
-  const productTest = JSON.stringify(product);
 
   const {
     price = 0,
@@ -36,9 +35,9 @@ function ProductInfo({ page }: Props) {
     availability,
   } = useOffer(offers);
 
-  const percent = listPrice && price
-    ? Math.round(((listPrice - price) / listPrice) * 100)
-    : 0;
+  // const percent = listPrice && price
+  //   ? Math.round(((listPrice - price) / listPrice) * 100)
+  //   : 0;
 
   const breadcrumb = {
     ...breadcrumbList,
@@ -66,11 +65,11 @@ function ProductInfo({ page }: Props) {
   });
 
   //Checks if the variant name is "title"/"default title" and if so, the SKU Selector div doesn't render
-  const hasValidVariants = isVariantOf?.hasVariant?.some(
-    (variant) =>
-      variant?.name?.toLowerCase() !== "title" &&
-      variant?.name?.toLowerCase() !== "default title",
-  ) ?? false;
+  // const hasValidVariants = isVariantOf?.hasVariant?.some(
+  //   (variant) =>
+  //     variant?.name?.toLowerCase() !== "title" &&
+  //     variant?.name?.toLowerCase() !== "default title",
+  // ) ?? false;
 
   return (
     <div {...viewItemEvent} class="flex flex-col" id={id}>

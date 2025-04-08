@@ -1,6 +1,6 @@
 import { type ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
-import PoweredByDeco from "apps/website/components/PoweredByDeco.tsx";
+// import Image from "apps/website/components/Image.tsx";
+// import PoweredByDeco from "apps/website/components/PoweredByDeco.tsx";
 import Section from "../../components/ui/Section.tsx";
 
 /** @titleBy title */
@@ -21,130 +21,118 @@ interface Social {
   image: ImageWidget;
 }
 
-interface Props {
-  links?: Link[];
-  social?: Social[];
-  paymentMethods?: Social[];
-  policies?: Item[];
-  logo?: ImageWidget;
-  trademark?: string;
-}
+// interface Props {
+//   links?: Link[];
+//   social?: Social[];
+//   paymentMethods?: Social[];
+//   policies?: Item[];
+//   logo?: ImageWidget;
+//   trademark?: string;
+// }
 
-function Footer({
-  links = [],
-  social = [],
-  policies = [],
-  paymentMethods = [],
-  logo,
-  trademark,
-}: Props) {
+function Footer() {
   return (
     <footer
       class="px-5 sm:px-0 mt-5 sm:mt-10"
       style={{ backgroundColor: "#EDE707" }}
     >
       <div class="container flex flex-col gap-5 sm:gap-10 py-10">
-        <ul class="grid grid-flow-row sm:grid-flow-col gap-6 ">
-          {links.map(({ title, href, children }) => (
-            <li class="flex flex-col gap-4">
-              <a class="text-base font-semibold" href={href}>{title}</a>
-              <ul class="flex flex-col gap-2">
-                {children.map(({ title, href }) => (
-                  <li>
-                    <a class="text-sm font-medium text-base-400" href={href}>
-                      {title}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
+        <div class="columns">
+          <div class="column-vidamina">
+            <img src="https://data.decoassets.com/lojavidamina/ed0e8580-e634-42e9-8661-cc64a888f894/vidamina---logo-preta-1.png" />
+            <p class="subtitle">
+              <b>by Singular Pharma</b>
+            </p>
 
-        <div class="footer-logos flex flex-col sm:flex-row gap-12 justify-between items-start sm:items-center">
-          <ul class="flex gap-4">
-            {social.map(({ image, href, alt }) => (
-              <li>
-                <a href={href}>
-                  <Image
-                    src={image}
-                    alt={alt}
-                    loading="lazy"
-                    width={24}
-                    height={24}
-                  />
-                </a>
-              </li>
-            ))}
-          </ul>
-          <ul class="flex flex-wrap gap-2">
-            {paymentMethods.map(({ image, alt }) => (
-              <li
-                style="border-color:transparent"
-                class="h-8 w-10 border border-base-100 rounded flex justify-center items-center"
-              >
-                <Image
-                  src={image}
-                  alt={alt}
-                  width={20}
-                  height={20}
-                  loading="lazy"
-                />
-              </li>
-            ))}
-          </ul>
-        </div>
+            <p>
+              <b>Singular Farmacia de Manipulação</b>
+            </p>
+            <p class="cnpj">05.794.416/0001-42</p>
+            <p class="address">Rua das Rosas, 90, Pituba, Salvador/BA</p>
+            <p class="cnpj">05.794.416/0004-95</p>
+            <p class="address">Av Paulo VI, 1070, Pituba, Salvador/BA</p>
+          </div>
 
-        <hr style="border-color:#000" class="w-full text-base-400" />
+          <div class="column-linhas">
+            <p class="title">LINHAS</p>
 
-        <div
-          style="position:relative;"
-          class="institutional-logo grid grid-flow-row sm:grid-flow-col gap-8"
-        >
-          <ul
-            style="z-index:9999998;flex-wrap:wrap !important;"
-            class="policies-links flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center"
-          >
-            {policies.map(({ title, href }) => (
-              <li>
-                <a class="text-sm font-normal" href={href}>
-                  {title}
-                </a>
-              </li>
-            ))}
-          </ul>
+            <a href="#">Vida Leve</a>
+            <a href="#">Vida Imune</a>
+            <a href="#">Vida Longa</a>
+            <a href="#">Vida Pura</a>
+            <a href="#">Vida Calma</a>
+            <a href="#">Vida Forte</a>
+            <a href="#">Vida Plena</a>
+            <a href="#">Vida Bela</a>
+            <a href="#">Vida Ativa</a>
+          </div>
 
-          <div
-            style="margin:auto;"
-            class="footer-logo flex flex-nowrap items-center justify-between sm:justify-center gap-4"
-          >
+          <div class="column-beneficios">
+            <p class="title">BENEFÍCIOS</p>
+
+            <a href="#">Aumento de massa magra</a>
+            <a href="#">Desempenho físico</a>
+            <a href="#">Detox</a>
+            <a href="#">Emagrecimento</a>
+            <a href="#">Energia</a>
+            <a href="#">Fortalecimento de unha e cabelo</a>
+            <a href="#">Fotoproteção</a>
+            <a href="#">Imunidade</a>
+            <a href="#">Longevidade</a>
+            <a href="#">Memória e foco</a>
+            <a href="#">Menopausa</a>
+            <a href="#">Modulação intestinal</a>
+            <a href="#">Saúde da mulher</a>
+            <a href="#">Saúde da pele</a>
+            <a href="#">Saúde mental</a>
+            <a href="#">Sono</a>
+          </div>
+
+          <div class="column-institucional">
             <div>
-              <img loading="lazy" src={logo} />
+              <p class="title">QUIZ</p>
+              <a href="#">Em breve</a>
             </div>
-            <span class="text-xs font-normal text-base-400">{trademark}</span>
+
+            <div>
+              <p class="title">INSTITUCIONAL</p>
+              <a href="#">Quem somos</a>
+              <a href="#">Nossos diferenciais</a>
+              <a href="#">Política de Privacidade</a>
+              <a href="#">Política de Entrega</a>
+              <a href="#">Política de Troca</a>
+            </div>
           </div>
 
-          <div
-            style="justify-content:flex-end !important;z-index:9999999;flex-wrap:wrap !important;"
-            class="flex items-center justify-center gap-4 institutional-links"
-          >
-            <p>
-              <span class="text-sm font-normal text-base-400">
-                <a href="/about-us">Quem somos</a>
-              </span>
-            </p>
-            <p>
-              <span class="text-sm font-normal text-base-400">
-                05.794.416/0001-42 - Singular Farmacia de Manipulação
-              </span>
-            </p>
-            <p>
-              <span class="text-sm font-normal text-base-400">
-                05.794.416/0004-95 - Singular Farmacia de Manipulação
-              </span>
-            </p>
+          <div class="column-pagamento">
+            <p class="title">FORMAS DE PAGAMENTO</p>
+
+            <div class="payment">
+              <img src="https://assets.decocache.com/lojavidamina/3badea85-e94d-49e5-ada6-80b4cc161eda/image-15.png" />
+              <img src="https://assets.decocache.com/lojavidamina/27bdbf64-7ec0-4c8a-9cff-3b42ffcc1c70/image-(1)-1.png" />
+              <img src="https://assets.decocache.com/lojavidamina/be35c761-9f80-4ac3-bd57-2834bd28c8ff/image-(2)-1.png" />
+              <img src="https://assets.decocache.com/lojavidamina/a61b7a6f-305b-44a6-ae9e-6347d3006106/image-16.png" />
+              <img src="https://assets.decocache.com/lojavidamina/08711c2e-0096-490f-a851-577d7725a006/image-17.png" />
+              <img src="https://assets.decocache.com/lojavidamina/7412aada-08e3-4417-b585-031a427fda86/image-18.png" />
+            </div>
+            <div class="security">
+              <img src="https://assets.decocache.com/lojavidamina/cc7c0929-3935-41f2-8fd3-8a552987e5e6/image-20.png" />
+              <img src="https://assets.decocache.com/lojavidamina/951e60e0-e61e-4ea6-bc76-3194843ffcf9/image-21.png" />
+            </div>
+          </div>
+
+          <div class="column-contato">
+            <div class="socials">
+              <img src="https://assets.decocache.com/lojavidamina/a51231b0-8859-4699-a1bf-91217e105ad1/instagram-brands-1.png" />
+              <img src="https://assets.decocache.com/lojavidamina/c5b1b6ad-561b-4cbc-a812-213d585ef549/facebook-brands-1.png" />
+            </div>
+
+            <a href="#">Fale conosco</a>
+            <a href="#">Acesse sua conta</a>
           </div>
         </div>
+
+        <hr />
 
         <div class="disclaimer">
           <p>
@@ -152,6 +140,10 @@ function Footer({
             técnica dos mesmos, não configurando propaganda ou estímulo a
             automedicação.
           </p>
+        </div>
+
+        <div class="vtex">
+          <img src="https://assets.decocache.com/lojavidamina/6e5df383-23a6-49ed-9476-eefaf72c1467/image-19.png" />
         </div>
       </div>
     </footer>

@@ -2,15 +2,10 @@ import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 
 export interface Props {
-  alerts?: string[];
-  /**
-   * @title Autoplay interval
-   * @description time (in seconds) to start the carousel autoplay
-   */
   interval?: number;
 }
 
-function Alert({ alerts = [], interval = 5 }: Props) {
+function Alert({ interval = 5 }: Props) {
   const id = useId();
 
   return (

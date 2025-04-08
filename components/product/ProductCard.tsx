@@ -50,9 +50,9 @@ function ProductCard({
   const firstSkuVariations = Object.entries(possibilities)?.[0];
   const variants = Object.entries(firstSkuVariations?.[1] ?? {});
   const relativeUrl = relative(url);
-  const percent = listPrice && price
-    ? Math.round(((listPrice - price) / listPrice) * 100)
-    : 0;
+  // const percent = listPrice && price
+  //   ? Math.round(((listPrice - price) / listPrice) * 100)
+  //   : 0;
 
   const item = mapProductToAnalyticsItem({ product, price, listPrice, index });
 
