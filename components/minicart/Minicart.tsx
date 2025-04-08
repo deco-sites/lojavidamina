@@ -158,7 +158,9 @@ export default function Cart(
           {count === 0
             ? (
               <div class="flex flex-col gap-6">
-                <span class="font-medium text-2xl">Seu carrinho está vazio</span>
+                <span class="font-medium text-2xl">
+                  Seu carrinho está vazio
+                </span>
                 <label
                   for={MINICART_DRAWER_ID}
                   class="btn btn-outline no-animation"
@@ -231,8 +233,12 @@ export default function Cart(
                     <span class="text-sm text-base-300">
                       Taxas e frete serão calculados no checkout
                     </span>
-                    <span class="text-sm text-base-300" style="text-align:right;">
-                      * Frete grátis apenas para envios com destino a Bahia e Sergipe
+                    <span
+                      class="text-sm text-base-300"
+                      style="text-align:right;"
+                    >
+                      * Frete grátis apenas para envios com destino a Bahia e
+                      Sergipe
                     </span>
                   </div>
 

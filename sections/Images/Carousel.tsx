@@ -83,7 +83,6 @@ function BannerItem(
             "sm:left-40 sm:items-start sm:max-w-96",
           )}
         >
-
         </div>
       )}
       <Picture preload={lcp} {...viewPromotionEvent}>

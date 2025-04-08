@@ -21,8 +21,13 @@ function Card({ image, href, label }: Item) {
     <a href={href} class="flex flex-col items-center justify-center gap-4">
       <div
         className="w-44 h-44 rounded-full bg-base-200 flex justify-center items-center border border-transparent hover:border-primary"
-        style={{ backgroundImage: `url('${image}')`, backgroundSize: 'cover', backgroundPosition: 'center' }}
-      ></div>
+        style={{
+          backgroundImage: `url('${image}')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+      </div>
       <span class="font-medium text-sm">{label}</span>
     </a>
   );

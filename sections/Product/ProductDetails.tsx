@@ -14,7 +14,7 @@ export default function ProductDetails({ page }: Props) {
   /**
    * Rendered when a not found is returned by any of the loaders run on this page
    */
-  
+
   if (!page) {
     return (
       <div class="w-full flex justify-center items-center py-28">
@@ -31,7 +31,7 @@ export default function ProductDetails({ page }: Props) {
   return (
     <div class="container flex flex-col gap-4 sm:gap-5 w-full py-4 sm:py-5 px-5 sm:px-0">
       <Breadcrumb itemListElement={page.breadcrumbList.itemListElement} />
-      <p style="display:none">{{page}}</p>
+      <p style="display:none">{{ page }}</p>
       <div
         class={clx(
           "container grid",

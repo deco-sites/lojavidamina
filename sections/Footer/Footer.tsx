@@ -79,7 +79,10 @@ function Footer({
           </ul>
           <ul class="flex flex-wrap gap-2">
             {paymentMethods.map(({ image, alt }) => (
-              <li style="border-color:transparent" class="h-8 w-10 border border-base-100 rounded flex justify-center items-center">
+              <li
+                style="border-color:transparent"
+                class="h-8 w-10 border border-base-100 rounded flex justify-center items-center"
+              >
                 <Image
                   src={image}
                   alt={alt}
@@ -94,8 +97,14 @@ function Footer({
 
         <hr style="border-color:#000" class="w-full text-base-400" />
 
-        <div style="position:relative;" class="institutional-logo grid grid-flow-row sm:grid-flow-col gap-8">
-          <ul style="z-index:9999998;flex-wrap:wrap !important;" class="policies-links flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center">
+        <div
+          style="position:relative;"
+          class="institutional-logo grid grid-flow-row sm:grid-flow-col gap-8"
+        >
+          <ul
+            style="z-index:9999998;flex-wrap:wrap !important;"
+            class="policies-links flex flex-col sm:flex-row gap-2 sm:gap-4 sm:items-center"
+          >
             {policies.map(({ title, href }) => (
               <li>
                 <a class="text-sm font-normal" href={href}>
@@ -105,22 +114,44 @@ function Footer({
             ))}
           </ul>
 
-          <div style="margin:auto;" class="footer-logo flex flex-nowrap items-center justify-between sm:justify-center gap-4">
+          <div
+            style="margin:auto;"
+            class="footer-logo flex flex-nowrap items-center justify-between sm:justify-center gap-4"
+          >
             <div>
               <img loading="lazy" src={logo} />
             </div>
             <span class="text-xs font-normal text-base-400">{trademark}</span>
           </div>
 
-          <div style="justify-content:flex-end !important;z-index:9999999;flex-wrap:wrap !important;" class="flex items-center justify-center gap-4 institutional-links">
-            <p><span class="text-sm font-normal text-base-400"><a href="/about-us">Quem somos</a></span></p>
-            <p><span class="text-sm font-normal text-base-400">05.794.416/0001-42 - Singular Farmacia de Manipulação</span></p>
-            <p><span class="text-sm font-normal text-base-400">05.794.416/0004-95 - Singular Farmacia de Manipulação</span></p>
+          <div
+            style="justify-content:flex-end !important;z-index:9999999;flex-wrap:wrap !important;"
+            class="flex items-center justify-center gap-4 institutional-links"
+          >
+            <p>
+              <span class="text-sm font-normal text-base-400">
+                <a href="/about-us">Quem somos</a>
+              </span>
+            </p>
+            <p>
+              <span class="text-sm font-normal text-base-400">
+                05.794.416/0001-42 - Singular Farmacia de Manipulação
+              </span>
+            </p>
+            <p>
+              <span class="text-sm font-normal text-base-400">
+                05.794.416/0004-95 - Singular Farmacia de Manipulação
+              </span>
+            </p>
           </div>
         </div>
 
         <div class="disclaimer">
-          <p>Os textos de todos os nossos produtos são referentes à descrição técnica dos mesmos, não configurando propaganda ou estímulo a automedicação.</p>
+          <p>
+            Os textos de todos os nossos produtos são referentes à descrição
+            técnica dos mesmos, não configurando propaganda ou estímulo a
+            automedicação.
+          </p>
         </div>
       </div>
     </footer>

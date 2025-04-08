@@ -213,7 +213,8 @@ function Result(props: SectionProps<typeof loader>) {
     //   {page.pageInfo.recordPerPage} de {page.pageInfo.records} resultados
     // </span>
     <span class="text-sm font-normal">
-      {page.pageInfo.records} {(page.pageInfo.records == 1) ? 'resultado' : 'resultados'}
+      {page.pageInfo.records}{" "}
+      {(page.pageInfo.records == 1) ? "resultado" : "resultados"}
     </span>
   );
   const sortBy = sortOptions.length > 0 && (
@@ -232,7 +233,12 @@ function Result(props: SectionProps<typeof loader>) {
                 <Drawer
                   id={controls}
                   aside={
-                    <div class={`bg-base-100 flex flex-col h-full divide-y overflow-y-hidden ${(url.includes("/category") ? 'category-list' : '')}`}>
+                    <div
+                      class={`bg-base-100 flex flex-col h-full divide-y overflow-y-hidden ${(url
+                          .includes("/category")
+                        ? "category-list"
+                        : "")}`}
+                    >
                       <div class="flex justify-between items-center">
                         <h1 class="px-4 py-3">
                           <span class="font-medium text-2xl">Filtros</span>
@@ -262,7 +268,12 @@ function Result(props: SectionProps<typeof loader>) {
 
               <div class="grid place-items-center grid-cols-1 sm:grid-cols-[250px_1fr]">
                 {device === "desktop" && (
-                  <aside class={`place-self-start flex flex-col gap-9 ${(url.includes("/category") ? 'category-list' : '')}`}>
+                  <aside
+                    class={`place-self-start flex flex-col gap-9 ${(url
+                        .includes("/category")
+                      ? "category-list"
+                      : "")}`}
+                  >
                     <span class="text-base font-semibold h-12 flex items-center">
                       Filtros
                     </span>

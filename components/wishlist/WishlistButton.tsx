@@ -20,7 +20,9 @@ const onLoad = (id: string, productID: string) =>
     );
     const span = button.querySelector("span");
     if (span) {
-      span.innerHTML = inWishlist ? "Remover da lista de desejos" : "Adicionar à lista de desejos";
+      span.innerHTML = inWishlist
+        ? "Remover da lista de desejos"
+        : "Adicionar à lista de desejos";
     }
   });
 const onClick = (productID: string, productGroupID: string) => {
@@ -63,7 +65,9 @@ function WishlistButton({ item, variant = "full" }: Props) {
       >
         <Icon id="favorite" class="[.htmx-request_&]:hidden" fill="none" />
         {variant === "full" && (
-          <span class="[.htmx-request_&]:hidden">Adicionar à lista de desejos</span>
+          <span class="[.htmx-request_&]:hidden">
+            Adicionar à lista de desejos
+          </span>
         )}
         <span class="[.htmx-request_&]:inline hidden loading loading-spinner" />
       </button>

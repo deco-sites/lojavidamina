@@ -105,15 +105,19 @@ function ProductInfo({ page }: Props) {
       </div>
 
       <div>
-        <p class="font-medium text-base-400" style="margin-top:0.75rem">{additionalInfo}</p>
+        <p class="font-medium text-base-400" style="margin-top:0.75rem">
+          {additionalInfo}
+        </p>
       </div>
 
       {/* Sku Selector */}
-      {/* hasValidVariants && (
+      {
+        /* hasValidVariants && (
         <div className="mt-4 sm:mt-8">
           <ProductSelector product={product} />
         </div>
-      ) */}
+      ) */
+      }
 
       {/* Description card */}
       <div class="mt-4 sm:mt-6">
@@ -127,10 +131,12 @@ function ProductInfo({ page }: Props) {
               />
             </details>
           )}
-          { //Teste feito com o formato de JSON dos produtos vindos do Intelligent Search
-          /*productTest && (
+          {
+            //Teste feito com o formato de JSON dos produtos vindos do Intelligent Search
+            /*productTest && (
             <p style="display:none">{productTest}</p>
-          )*/}
+          )*/
+          }
         </span>
       </div>
 
