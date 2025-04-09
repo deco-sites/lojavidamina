@@ -4,7 +4,11 @@
     "placeholder": "O que está procurando?",
     "loader": {
       "__resolveType": "resolved",
-      "data": null
+      "data": {
+        "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts",
+        "count": 4,
+        "similars": true
+      }
     }
   },
   "alerts": [

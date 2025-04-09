@@ -41,10 +41,9 @@
               "products": {
                 "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
                 "props": {
-                  "sort": "release:desc",
-                  "fuzzy": "automatic",
-                  "query": "usevidamina",
-                  "count": 6
+                  "sort": "orders:desc",
+                  "count": 7,
+                  "collection": "145"
                 }
               },
               "cta": "/products"
