@@ -218,13 +218,13 @@ const Mobile = ({ logo, searchbar, navItems, loading }: Props) => (
         </a>
       )}
 
-      {/* <label
+      <label
         for={SEARCHBAR_DRAWER_ID}
         class="btn btn-square btn-sm btn-ghost"
         aria-label="search icon button"
       >
         <Icon id="search" />
-      </label> */}
+      </label>
       <Bag />
     </div>
   </>
