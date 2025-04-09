@@ -40,7 +40,7 @@ function CategoryGrid({ title, cta, items }: Props) {
 
       {device === "desktop"
         ? (
-          <div class="grid grid-cols-6 gap-10">
+          <div class={`grid grid-cols-6 gap-10 ${title == 'Nossas linhas' ? 'nossas-linhas' : ''}`}>
             {items.map((i) => <Card {...i} />)}
           </div>
         )

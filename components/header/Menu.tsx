@@ -1,5 +1,10 @@
 import Icon from "../../components/ui/Icon.tsx";
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
+import {
+  SEARCHBAR_DRAWER_ID,
+  SIDEMENU_DRAWER_ID
+} from "../../constants.ts";
+import { closeDrawer } from "../../utils.ts";
 
 export interface Props {
   navItems?: SiteNavigationElement[];
@@ -73,6 +78,16 @@ function Menu({ navItems = [] }: Props) {
             <span class="text-sm">Fale conosco</span>
           </a>
         </li>
+        {/* <li>
+          <label
+            for={SEARCHBAR_DRAWER_ID}
+            class="btn btn-square btn-sm btn-ghost"
+            aria-label="search icon button"
+            onClick={() => closeDrawer(SIDEMENU_DRAWER_ID)}
+          >
+            <Icon id="search" />
+          </label>
+        </li> */}
       </ul>
     </div>
   );

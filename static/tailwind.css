@@ -1094,7 +1094,43 @@ html {
 .drawer-end .drawer-toggle:checked ~ .drawer-side > *:not(.drawer-overlay) {
   transform: translateX(0%);
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown > *:not(summary):focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.dropdown .dropdown-content {
+  position: absolute;
+}
+.dropdown:is(:not(details)) .dropdown-content {
+  visibility: hidden;
+  opacity: 0;
+  transform-origin: top;
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+.dropdown.dropdown-open .dropdown-content,
+.dropdown:not(.dropdown-hover):focus .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+}
 @media (hover: hover) {
+
+  .dropdown.dropdown-hover:hover .dropdown-content {
+    visibility: visible;
+    opacity: 1;
+  }
 
   .btm-nav > *.disabled:hover,
       .btm-nav > *[disabled]:hover {
@@ -1277,6 +1313,12 @@ html {
     }
   }
 
+  .dropdown.dropdown-hover:hover .dropdown-content {
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
   :where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)):not(.active):hover, :where(.menu li:not(.menu-title):not(.disabled) > details > summary:not(.menu-title)):not(.active):hover {
     cursor: pointer;
     outline: 2px solid transparent;
@@ -1296,6 +1338,9 @@ html {
     color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
     --tw-text-opacity: 0.2;
   }
+}
+.dropdown:is(details) summary::-webkit-details-marker {
+  display: none;
 }
 .footer {
   display: grid;
@@ -2416,6 +2461,13 @@ details.collapse summary::-webkit-details-marker {
   outline-style: solid;
   outline-width: 2px;
   outline-offset: 2px;
+}
+.dropdown.dropdown-open .dropdown-content,
+.dropdown:focus .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .\!input input:focus {
   outline: 2px solid transparent !important;
@@ -4213,6 +4265,9 @@ details.collapse summary::-webkit-details-marker {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.place-items-start {
+  place-items: start;
+}
 .place-items-center {
   place-items: center;
 }
@@ -5109,18 +5164,7 @@ details.collapse summary::-webkit-details-marker {
 
 #contact-form-iframe {
   width: 100%;
-}
-
-@media screen and (max-width: 960px) {
-  #contact-form-iframe {
-    height: 100vh;
-  }
-}
-
-@media screen and (min-width: 960px) {
-  #contact-form-iframe {
-    height: 60vh;
-  }
+  height: 100vh;
 }
 
 .privacy-policy,
@@ -5383,6 +5427,149 @@ footer .container .vtex {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+}
+
+.dropdown {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px !important;
+  background-color:#97999B;
+}
+
+/* @media (min-width: 640px) {
+  .dropdown {
+    left:calc(50vw - 320px);
+  }
+}
+
+@media (min-width: 768px) {
+  .dropdown {
+    left:calc(50vw - 384px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .dropdown {
+    left:calc(50vw - 512px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .dropdown {
+    left:calc(50vw - 640px);
+  }
+}
+
+@media (min-width: 1536px) {
+  .dropdown {
+    left:calc(50vw - 768px);
+  }
+} */
+
+.dropdown ul {
+  gap:25px !important;
+  padding:25px;
+}
+
+.dropdown .dropdown-items {
+  width:calc(50% - 25px/2);
+  padding:0px !important;
+  height:auto !important;
+}
+
+.dropdown .dropdown-items ul {
+  display:none !important;
+}
+
+@media (min-width: 640px) {
+  .menu-row {
+    padding:0px calc(50vw - 640px/2);
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-row {
+    padding:0px calc(50vw - 768px/2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .menu-row {
+    padding:0px calc(50vw - 1024px/2);
+  }
+}
+
+@media (min-width: 1280px) {
+  .menu-row {
+    padding:0px calc(50vw - 1280px/2);
+  }
+}
+
+@media (min-width: 1536px) {
+  .menu-row {
+    padding:0px calc(50vw - 1536px/2);
+  }
+}
+
+@media screen and (min-width: 1536px) and (max-width: 1660px) {
+  .menu-row {
+    padding:0px calc(50vw - 1366px/2) !important;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .menu-row {
+    padding:0px calc(50vw - 1024px/2) !important;
+  }
+}
+
+.menu-row:nth-child(2) {
+  background-color:#97999B;
+  color:#FFF;
+}
+
+.nossas-linhas {
+  grid-template-columns:repeat(5, minmax(0, 1fr)) !important;
+}
+
+.text-about-us {
+  max-width:100% !important;
+}
+
+.text-about-us p {
+  font-size:16px !important;
+}
+
+.header-signature {
+  font-weight:800;
+  font-size:14px;
+  margin-top:10px;
+}
+
+.menu-icons-desktop {
+  align-items:center;
+  margin:auto;
+  margin-right:0px;
+}
+
+.menu-icons-desktop p {
+  text-align:center;
+  line-height:1em;
+  font-weight:600;
+  font-size:0.875rem;
+}
+
+.menu-icons-desktop a {
+  margin-right:10px;
+}
+
+.menu-icons-desktop a svg {
+  margin:auto;
+}
+
+.benefits-list {
+  padding-top:4.25rem !important;
 }
 
 .invalid\:input-error:invalid {

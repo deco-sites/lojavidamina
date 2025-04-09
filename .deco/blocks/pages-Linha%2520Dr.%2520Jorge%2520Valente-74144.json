@@ -2,7 +2,7 @@
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
-    "title": "Vida Imune"
+    "title": "Vida Ativa"
   },
   "sections": [
     {
@@ -27,11 +27,10 @@
         "banners": [
           {
             "image": {
-              "desktop": "https://data.decoassets.com/lojavidamina/8b7ddb6f-881a-4574-bb54-3c09e3600917/healthy-food-(6).png",
-              "mobile": "https://data.decoassets.com/lojavidamina/8b7ddb6f-881a-4574-bb54-3c09e3600917/healthy-food-(6).png"
+              "desktop": "https://assets.decocache.com/lojavidamina/492afaa8-4307-4eb6-a5b9-6338e1efa079/Linha-Dr-Jorge-Valente.png",
+              "mobile": "https://assets.decocache.com/lojavidamina/492afaa8-4307-4eb6-a5b9-6338e1efa079/Linha-Dr-Jorge-Valente.png"
             },
-            "title": "Quem somos",
-            "subtitle": "Para cada estilo de vida, uma solução"
+            "title": "Linha Dr. Jorge Valente"
           }
         ]
       }
@@ -39,14 +38,33 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/HeroAbout.tsx",
-        "image": "https://assets.decocache.com/lojavidamina/54a535bd-2b35-40f4-ba6e-7b09c1b72752/manifesto.png"
+        "__resolveType": "site/sections/Product/SearchResult.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+          "sort": "name:asc",
+          "fuzzy": "automatic",
+          "selectedFacets": [
+            {
+              "key": "category-1",
+              "value": "linha-dr-jorge-valente"
+            }
+          ],
+          "query": "usevidamina",
+          "count": 8
+        },
+        "layout": {
+          "pagination": "show-more"
+        }
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "Linhas"
+        "__resolveType": "site/sections/Content/Hero.tsx",
+        "image": "https://assets.decocache.com/lojavidamina/cd6ab99d-7bef-4ae4-ba03-113c1b92c9d4/pexels-linkedin-1251832.jpg",
+        "description": "Ser mulher é viver cada fase com coragem e força, e nada melhor do que se cuidar com amor em todas as etapas da vida. Em março, no Mês da Mulher, apresentamos a nova linha da Vidamina — com protocolos assinados pelo Dr. Jorge Valente e pensados especialmente para você, mulher madura, que merece todo o carinho e atenção que sua saúde precisa.",
+        "placement": "right",
+        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Celebre a sua jornada com carinho e cuidado</span></strong></span></p>"
       }
     },
     {
@@ -76,6 +94,6 @@
       }
     }
   ],
-  "name": "Quem somos",
-  "path": "/about-us"
+  "name": "Linha Dr. Jorge Valente",
+  "path": "/linha-dr-jorge-valente"
 }

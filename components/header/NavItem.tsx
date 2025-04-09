@@ -11,7 +11,7 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
 
   return (
     <li
-      class="group flex items-center pr-5"
+      class="group flex items-center pr-5 relative"
       style={{ height: NAVBAR_HEIGHT_DESKTOP }}
     >
       <a
@@ -24,11 +24,10 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
       {children && children.length > 0 &&
         (
           <div
-            class="fixed hidden hover:flex group-hover:flex bg-base-100 z-40 items-start justify-center gap-6 border-t-2 border-b-2 border-base-200 w-screen"
+            class="dropdown fixed hidden hover:flex group-hover:flex bg-base-100 z-40 items-start justify-center gap-6 border-t-2 border-b-2 border-base-200 w-screen"
             style={{
               top: "0px",
-              left: "0px",
-              marginTop: "197px",
+              marginTop: NAVBAR_HEIGHT_DESKTOP
             }}
           >
             {image?.url && (
@@ -46,7 +45,7 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
               style="flex-wrap:wrap;"
             >
               {children.map((node) => (
-                <li class="p-6 pl-0">
+                <li class="p-6 pl-0 dropdown-items">
                   <a class="hover:underline" href={node.url}>
                     <span>{node.name}</span>
                   </a>

@@ -18,74 +18,67 @@
   },
   "navItems": [
     {
-      "children": [
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Leve",
-          "url": "/category/vida-leve"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Imune",
-          "url": "/category/vida-imune"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Ativa",
-          "url": "/category/vida-ativa"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Pura",
-          "url": "/category/vida-pura"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Calma",
-          "url": "/category/vida-calma"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Plena",
-          "url": "/category/vida-plena"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Bela",
-          "url": "/category/vida-bela"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Forte",
-          "url": "/category/vida-forte"
-        },
-        {
-          "children": [],
-          "image": null,
-          "name": "Vida Longa",
-          "url": "/category/vida-longa"
-        }
-      ],
-      "url": "#",
-      "name": "Linhas",
+      "children": [],
+      "url": "/category/vida-leve",
+      "name": "Vida Leve",
+      "image": null
+    },
+    {
+      "children": [],
+      "image": null,
+      "url": "/category/vida-imune",
+      "name": "Vida Imune"
+    },
+    {
+      "children": [],
+      "image": null,
+      "url": "/category/vida-longa",
+      "name": "Vida Longa"
+    },
+    {
+      "children": [],
+      "image": null,
+      "url": "/category/vida-pura",
+      "name": "Vida Pura"
+    },
+    {
+      "children": [],
+      "image": null,
+      "url": "/category/vida-calma",
+      "name": "Vida Calma"
+    },
+    {
+      "children": [],
+      "image": null,
+      "url": "/category/vida-forte",
+      "name": "Vida Forte"
+    },
+    {
+      "url": "/category/vida-plena",
+      "name": "Vida Plena",
+      "children": [],
+      "image": null
+    },
+    {
+      "url": "/category/vida-bela",
+      "name": "Vida Bela",
+      "children": [],
+      "image": null
+    },
+    {
+      "url": "/category/vida-ativa",
+      "name": "Vida Ativa",
+      "children": [],
       "image": null
     },
     {
       "url": "#",
-      "name": "Categorias",
+      "name": "Benefícios",
       "children": [
         {
           "children": [],
           "image": null,
-          "name": "Aumento de massa magra",
+          "name": "Ganho muscular",
           "url": "/products?filter.category-1=aumento-de-massa-magra"
         },
         {
@@ -115,7 +108,7 @@
         {
           "children": [],
           "image": null,
-          "name": "Fortalecimento de unha e cabelo",
+          "name": "Unha e cabelo",
           "url": "/products?filter.category-1=fortalecimento-unha-e-cabelo"
         },
         {
@@ -177,6 +170,19 @@
           "image": null,
           "name": "Sono",
           "url": "/products?filter.category-1=sono"
+        }
+      ],
+      "image": null
+    },
+    {
+      "url": "#",
+      "name": "Linhas especiais",
+      "children": [
+        {
+          "children": [],
+          "image": null,
+          "name": "Linha Dr. Jorge Valente",
+          "url": "/linha-dr-jorge-valente"
         }
       ],
       "image": null

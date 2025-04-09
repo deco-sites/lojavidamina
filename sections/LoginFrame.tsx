@@ -1,4 +1,4 @@
-export default function Section() {
+function Section() {
   return (
     <iframe
       style="width:100%;height:100vh;"
@@ -10,3 +10,19 @@ export default function Section() {
     </iframe>
   );
 }
+
+export const LoadingFallback = () => (
+  <div
+    style={{
+      width: "100%",
+      height: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+    }}
+  >
+    <span class="loading loading-spinner" />
+  </div>
+);
+
+export default Section;

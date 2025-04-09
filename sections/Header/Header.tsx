@@ -69,8 +69,8 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
 
     <TopBar />
 
-    <div class="flex flex-col gap-4 pt-5 container border-b border-gray-300">
-      <div class="grid grid-cols-3 place-items-center">
+    <div class="flex flex-col gap-4 pt-5 border-b border-gray-300">
+      <div class="menu-row grid grid-cols-3 place-items-center">
         <div class="place-self-start">
           <a href="/" aria-label="Store logo">
             <Image
@@ -79,6 +79,7 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
               width={logo.width || 100}
               height={logo.height || 23}
             />
+            <p class="header-signature">Autonomia na sua rotina com suplementos inteligentes</p>
           </a>
         </div>
 
@@ -93,7 +94,7 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
           </span>
         </label>
 
-        <div class="flex gap-4 place-self-end">
+        <div class="flex gap-4 place-self-end menu-icons-desktop">
           <a href="/contact-us" id="user-options">
             <svg
               width="24"
@@ -109,6 +110,7 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
                 d="M6.66669 6.66667C6.31306 6.66667 5.97393 6.80714 5.72388 7.05719C5.4819 7.29917 5.34253 7.62459 5.33379 7.96582C5.64045 12.8244 7.70881 17.405 11.1519 20.8481C14.5951 24.2912 19.1756 26.3596 24.0342 26.6662C24.3754 26.6575 24.7008 26.5181 24.9428 26.2761C25.1929 26.0261 25.3334 25.687 25.3334 25.3333V20.9027L20.5591 18.993L19.1433 21.3527C18.7863 21.9477 18.0326 22.1694 17.4103 21.8625C14.2517 20.3047 11.6953 17.7483 10.1375 14.5898C9.83061 13.9674 10.0523 13.2137 10.6474 12.8567L13.007 11.4409L11.0973 6.66667H6.66669ZM3.83826 5.17157C4.58841 4.42143 5.60582 4 6.66669 4H12C12.5452 4 13.0355 4.33193 13.238 4.83815L15.9047 11.5048C16.1477 12.1124 15.9138 12.8066 15.3527 13.1433L13.1207 14.4825C14.2192 16.274 15.726 17.7809 17.5175 18.8793L18.8567 16.6473C19.1934 16.0862 19.8876 15.8523 20.4952 16.0954L27.1619 18.762C27.6681 18.9645 28 19.4548 28 20V25.3333C28 26.3942 27.5786 27.4116 26.8284 28.1618C26.0783 28.9119 25.0609 29.3333 24 29.3333C23.973 29.3333 23.9461 29.3325 23.9191 29.3309C18.3931 28.9951 13.181 26.6484 9.26632 22.7337C5.35161 18.819 3.00496 13.6069 2.66914 8.08088C2.66751 8.05395 2.66669 8.02698 2.66669 8C2.66669 6.93913 3.08811 5.92172 3.83826 5.17157Z"
               />
             </svg>
+            <p>Fale<br />conosco</p>
           </a>
           <a href="/my-account" id="user-options">
             <svg
@@ -126,14 +128,18 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
                 fill="currentColor"
               />
             </svg>
+            <p>Minha<br />conta</p>
           </a>
-          <Bag />
+          <div style="text-align:center">
+            <Bag />
+            <p>Meu<br />carrinho</p>
+          </div>
         </div>
       </div>
 
-      <div class="flex justify-between items-center">
+      <div class="menu-row flex justify-between items-center">
         <ul class="flex">
-          {navItems?.slice(0, 10).map((item) => <NavItem item={item} />)}
+          {navItems?.slice(0, 11).map((item) => <NavItem item={item} />)}
         </ul>
         <div>
           {/* ship to */}
@@ -181,7 +187,7 @@ const Mobile = ({ logo, searchbar, navItems, loading }: Props) => (
     />
 
     <div
-      class="grid place-items-center w-screen px-5 gap-4"
+      class="grid place-items-center w-screen px-5"
       style={{
         height: NAVBAR_HEIGHT_MOBILE,
         gridTemplateColumns:
@@ -212,13 +218,13 @@ const Mobile = ({ logo, searchbar, navItems, loading }: Props) => (
         </a>
       )}
 
-      <label
+      {/* <label
         for={SEARCHBAR_DRAWER_ID}
         class="btn btn-square btn-sm btn-ghost"
         aria-label="search icon button"
       >
         <Icon id="search" />
-      </label>
+      </label> */}
       <Bag />
     </div>
   </>

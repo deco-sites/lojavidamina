@@ -226,7 +226,7 @@ function Result(props: SectionProps<typeof loader>) {
         {partial
           ? <PageResult {...props} />
           : (
-            <div class="container flex flex-col gap-4 sm:gap-5 w-full py-4 sm:py-5 px-5 sm:px-0">
+            <div class={`container flex flex-col gap-4 sm:gap-5 w-full py-4 sm:py-5 px-5 sm:px-0 ${!(url.includes("/category") || url.includes("linha-dr-jorge-valente")) ? "benefits-list" : ""}`}>
               {/* <Breadcrumb itemListElement={breadcrumb?.itemListElement} /> */}
 
               {device === "mobile" && (
@@ -235,7 +235,7 @@ function Result(props: SectionProps<typeof loader>) {
                   aside={
                     <div
                       class={`bg-base-100 flex flex-col h-full divide-y overflow-y-hidden ${(url
-                          .includes("/category")
+                          .includes("/category") || url.includes("linha-dr-jorge-valente")
                         ? "category-list"
                         : "")}`}
                     >
@@ -266,11 +266,11 @@ function Result(props: SectionProps<typeof loader>) {
                 </Drawer>
               )}
 
-              <div class="grid place-items-center grid-cols-1 sm:grid-cols-[250px_1fr]">
+              <div class="grid place-items-start grid-cols-1 sm:grid-cols-[250px_1fr]">
                 {device === "desktop" && (
                   <aside
                     class={`place-self-start flex flex-col gap-9 ${(url
-                        .includes("/category")
+                        .includes("/category") || url.includes("linha-dr-jorge-valente")
                       ? "category-list"
                       : "")}`}
                   >
