@@ -5576,6 +5576,16 @@ footer .container .vtex {
   padding-top:4.25rem !important;
 }
 
+.category-banner {
+  margin-top:2.25rem;
+}
+
+@media screen and (max-width:960px) {
+  .category-banner h1 {
+    text-align:center !important;
+  }
+}
+
 .invalid\:input-error:invalid {
   --tw-border-opacity: 1;
   border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));

@@ -23,11 +23,27 @@
                 }
               },
               {
+                "desktop": "https://assets.decocache.com/lojavidamina/688684ea-a83c-4beb-9ffa-58070a6c7241/BANNER_SITE_-_VIDAMINA_-_CAPUCCINO_01.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/63f13b6a-56f4-42e5-9d29-1d7adce25058/BANNER_SITE_-_MOBILE_-_VIDAMINA_-_CAPUCCINO_01.png",
+                "action": {
+                  "href": "http://localhost:10503/capuccino-pre-treino/p?skuId=54"
+                },
+                "alt": "Capuccino pré-treino"
+              },
+              {
                 "desktop": "https://data.decoassets.com/lojavidamina/1ec03f8d-f206-4fe7-b524-e1b9037cb531/Banner-site-Vidamina02.png",
                 "mobile": "https://data.decoassets.com/lojavidamina/d693de63-fc1c-4396-858b-a7ed3f078cd1/2.png",
                 "action": {
                   "href": "/category/vida-plena"
                 }
+              },
+              {
+                "desktop": "https://assets.decocache.com/lojavidamina/08506184-adb9-4ff3-ba7e-fb33f90c1d54/BANNER_SITE_-_VIDAMINA_-_CAPUCCINO_02.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/2e728197-f1ac-4f7f-a94a-7e325597156f/BANNER-SITE---MOBILE---VIDAMINA---CAPUCCINO-02.png",
+                "action": {
+                  "href": "http://localhost:10503/capuccino-pre-treino/p?skuId=54"
+                },
+                "alt": "Capuccino pré-treino"
               }
             ],
             "preload": false,
