@@ -23,8 +23,23 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/HeroAbout.tsx",
-        "image": "https://assets.decocache.com/lojavidamina/54a535bd-2b35-40f4-ba6e-7b09c1b72752/manifesto.png"
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "desktop": "https://data.decoassets.com/lojavidamina/8b7ddb6f-881a-4574-bb54-3c09e3600917/healthy-food-(6).png",
+              "mobile": "https://data.decoassets.com/lojavidamina/8b7ddb6f-881a-4574-bb54-3c09e3600917/healthy-food-(6).png"
+            },
+            "title": "Nossos diferenciais",
+            "subtitle": "O que nos faz únicos?"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Differentials.tsx"
       }
     },
     {
@@ -60,6 +75,6 @@
       }
     }
   ],
-  "name": "Quem somos",
-  "path": "/about-us"
+  "name": "Nossos diferenciais",
+  "path": "/what-makes-us-unique"
 }

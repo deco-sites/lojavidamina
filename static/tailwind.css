@@ -5437,36 +5437,6 @@ footer .container .vtex {
   background-color:#97999B;
 }
 
-/* @media (min-width: 640px) {
-  .dropdown {
-    left:calc(50vw - 320px);
-  }
-}
-
-@media (min-width: 768px) {
-  .dropdown {
-    left:calc(50vw - 384px);
-  }
-}
-
-@media (min-width: 1024px) {
-  .dropdown {
-    left:calc(50vw - 512px);
-  }
-}
-
-@media (min-width: 1280px) {
-  .dropdown {
-    left:calc(50vw - 640px);
-  }
-}
-
-@media (min-width: 1536px) {
-  .dropdown {
-    left:calc(50vw - 768px);
-  }
-} */
-
 .dropdown ul {
   gap:25px !important;
   padding:25px;
@@ -5592,6 +5562,54 @@ footer .container .vtex {
 
 .wishlist aside {
   display:none !important;
+}
+
+.differentials {
+  padding-top:2.5rem;
+  margin:auto;
+}
+
+.differentials ul {
+  list-style-type: circle;
+}
+
+.differentials ul li {
+  font-size:18px;
+  color:rgb(161, 161, 170);
+}
+
+.differentials ul li:not(:last-child) {
+  margin-bottom:10px;
+}
+
+@media (min-width: 640px) {
+  .differentials {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .differentials {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .differentials {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .differentials {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .differentials {
+    max-width: 1536px;
+  }
 }
 
 .invalid\:input-error:invalid {

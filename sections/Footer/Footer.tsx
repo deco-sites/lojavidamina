@@ -97,7 +97,7 @@ function Footer() {
             <div>
               <p class="title">INSTITUCIONAL</p>
               <a href="/about-us">Quem somos</a>
-              <a href="#">Nossos diferenciais</a>
+              <a href="/what-makes-us-unique">Nossos diferenciais</a>
               <a href="/privacy-policy">Política de Privacidade</a>
               <a href="/shipping-policy">Política de Entrega</a>
               <a href="/exchange-policy">Política de Troca</a>
