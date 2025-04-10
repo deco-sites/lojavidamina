@@ -78,16 +78,15 @@ function Menu({ navItems = [] }: Props) {
             <span class="text-sm">Fale conosco</span>
           </a>
         </li>
-        {/* <li>
-          <label
-            for={SEARCHBAR_DRAWER_ID}
-            class="btn btn-square btn-sm btn-ghost"
-            aria-label="search icon button"
-            onClick={() => closeDrawer(SIDEMENU_DRAWER_ID)}
+        <li>
+          <a
+            class="flex items-center gap-4 px-4 py-2"
+            href="/wishlist"
           >
-            <Icon id="search" />
-          </label>
-        </li> */}
+            <Icon id="favorite" />
+            <span class="text-sm">Lista de desejos</span>
+          </a>
+        </li>
       </ul>
     </div>
   );

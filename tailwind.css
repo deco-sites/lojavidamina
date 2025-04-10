@@ -545,3 +545,11 @@ footer .container .vtex {
     text-align:center !important;
   }
 }
+
+.wishlist {
+  grid-template-columns: 100% 1fr !important;
+}
+
+.wishlist aside {
+  display:none !important;
+}

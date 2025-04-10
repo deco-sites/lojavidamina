@@ -130,6 +130,10 @@ const Desktop = ({ navItems, logo, searchbar, loading }: Props) => (
             </svg>
             <p>Minha<br />conta</p>
           </a>
+          <a href="/wishlist" id="user-options">
+            <Icon id="favorite" fill="none" style="margin-top:4px;margin-bottom:4px;" />
+            <p>Lista de<br />desejos</p>
+          </a>
           <div style="text-align:center">
             <Bag />
             <p>Meu<br />carrinho</p>

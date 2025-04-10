@@ -67,6 +67,8 @@ function PageResult(props: SectionProps<typeof loader>) {
   });
   const infinite = layout?.pagination !== "pagination";
 
+  console.log("SearcResult props", props);
+
   return (
     <div class="grid grid-flow-row grid-cols-1 place-items-center">
       <div
@@ -140,7 +142,7 @@ function PageResult(props: SectionProps<typeof loader>) {
                 <Icon id="chevron-right" class="rotate-180" />
               </a>
               <span class="btn btn-ghost join-item">
-                Página {zeroIndexedOffsetPage}
+                {zeroIndexedOffsetPage == 0 ? 'Página 1' : `Página ${zeroIndexedOffsetPage}`}
               </span>
               <a
                 rel="next"
@@ -267,7 +269,7 @@ function Result(props: SectionProps<typeof loader>) {
                 </Drawer>
               )}
 
-              <div class="grid place-items-start grid-cols-1 sm:grid-cols-[250px_1fr]">
+              <div class={`${url.includes("wishlist") ? 'wishlist' : ''} grid place-items-start grid-cols-1 sm:grid-cols-[250px_1fr]`}>
                 {device === "desktop" && (
                   <aside
                     class={`place-self-start flex flex-col gap-9 ${(url

@@ -2,13 +2,28 @@
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
-    "title": "Vida Calma"
+    "title": "Lista de desejos"
   },
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "desktop": "https://assets.decocache.com/lojavidamina/9c05b422-5c1f-48c4-8512-2fd15eaefab3/Lista-de-desejos.png",
+              "mobile": "https://assets.decocache.com/lojavidamina/9c05b422-5c1f-48c4-8512-2fd15eaefab3/Lista-de-desejos.png"
+            },
+            "title": "Lista de desejos"
+          }
+        ]
       }
     },
     {

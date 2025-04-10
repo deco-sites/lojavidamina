@@ -5586,6 +5586,14 @@ footer .container .vtex {
   }
 }
 
+.wishlist {
+  grid-template-columns: 100% 1fr !important;
+}
+
+.wishlist aside {
+  display:none !important;
+}
+
 .invalid\:input-error:invalid {
   --tw-border-opacity: 1;
   border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
