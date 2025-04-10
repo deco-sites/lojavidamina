@@ -57,7 +57,6 @@ export default function GallerySlider(props: Props) {
                   <Image
                     class="w-full"
                     sizes="(max-width: 640px) 100vw, 40vw"
-                    style={{ aspectRatio: ASPECT_RATIO }}
                     src={img.url!}
                     alt={img.alternateName}
                     width={WIDTH}

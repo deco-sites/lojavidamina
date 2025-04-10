@@ -25,14 +25,14 @@ const useStyles = (value: string, checked: boolean) => {
   if (colors[value]) {
     return clx(
       "border border-base-300 rounded-full",
-      "w-12 h-12 block",
+      "h-12 block",
       "border border-[#C9CFCF] rounded-full",
       "ring-2 ring-offset-2",
       checked ? "ring-primary" : "ring-transparent",
     );
   }
   return clx(
-    "btn btn-ghost border-[#C9CFCF] hover:bg-base-200 hover:border-[#C9CFCF] w-12 h-12",
+    "btn btn-ghost border-[#C9CFCF] hover:bg-base-200 hover:border-[#C9CFCF] h-12",
     "ring-2 ring-offset-2",
     checked ? "ring-primary" : "ring-transparent border-[#C9CFCF]",
   );

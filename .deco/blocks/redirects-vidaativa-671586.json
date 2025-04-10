@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/vidaativa",
+    "to": "/category/vida-ativa",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

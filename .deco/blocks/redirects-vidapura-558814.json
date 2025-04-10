@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/vidapura",
+    "to": "/category/vida-pura",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

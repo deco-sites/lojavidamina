@@ -17,6 +17,8 @@ function WishlistGallery(props: SectionProps<typeof loader>) {
         </div>
       </div>
     );
+  } else {
+    console.log(props);
   }
   return <SearchResult {...props} />;
 }

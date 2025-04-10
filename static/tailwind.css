@@ -5572,6 +5572,10 @@ footer .container .vtex {
   padding-top:4.25rem !important;
 }
 
+.product-details-container {
+  padding-top:4.25rem !important;
+}
+
 .invalid\:input-error:invalid {
   --tw-border-opacity: 1;
   border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));

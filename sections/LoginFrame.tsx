@@ -1,7 +1,7 @@
 function Section() {
   return (
     <iframe
-      style="width:100%;height:100vh;"
+      style="width:100%;height:100vh;padding-top:4.25rem;"
       scrolling="no"
       seamless="seamless"
       src="https://www.usevidamina.com.br/login?returnUrl=/account"

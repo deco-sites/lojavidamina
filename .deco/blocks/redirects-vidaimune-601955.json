@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/vidaimune",
+    "to": "/category/vida-imune",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

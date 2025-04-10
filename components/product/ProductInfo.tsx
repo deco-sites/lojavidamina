@@ -9,7 +9,7 @@ import ShippingSimulationForm from "../shipping/Form.tsx";
 import WishlistButton from "../wishlist/WishlistButton.tsx";
 import AddToCartButton from "./AddToCartButton.tsx";
 import OutOfStock from "./OutOfStock.tsx";
-// import ProductSelector from "./ProductVariantSelector.tsx";
+import ProductSelector from "./ProductVariantSelector.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
@@ -65,11 +65,11 @@ function ProductInfo({ page }: Props) {
   });
 
   //Checks if the variant name is "title"/"default title" and if so, the SKU Selector div doesn't render
-  // const hasValidVariants = isVariantOf?.hasVariant?.some(
-  //   (variant) =>
-  //     variant?.name?.toLowerCase() !== "title" &&
-  //     variant?.name?.toLowerCase() !== "default title",
-  // ) ?? false;
+  const hasValidVariants = isVariantOf?.hasVariant?.some(
+    (variant) =>
+      variant?.name?.toLowerCase() !== "title" &&
+      variant?.name?.toLowerCase() !== "default title",
+  ) ?? false;
 
   return (
     <div {...viewItemEvent} class="flex flex-col" id={id}>
@@ -111,11 +111,11 @@ function ProductInfo({ page }: Props) {
 
       {/* Sku Selector */}
       {
-        /* hasValidVariants && (
-        <div className="mt-4 sm:mt-8">
-          <ProductSelector product={product} />
-        </div>
-      ) */
+        hasValidVariants && (
+          <div className="mt-4 sm:mt-8">
+            <ProductSelector product={product} />
+          </div>
+        )
       }
 
       {/* Description card */}
