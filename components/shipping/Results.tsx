@@ -5,6 +5,7 @@ import { AppContext } from "apps/vtex/mod.ts";
 import type { SimulationOrderForm, SKU, Sla } from "apps/vtex/utils/types.ts";
 import { formatPrice } from "../../sdk/format.ts";
 import { ComponentProps } from "../../sections/Component.tsx";
+import shipping from "../../loaders/shipping.ts";
 
 export interface Props {
   items: SKU[];
@@ -22,11 +23,11 @@ export async function action(props: Props, req: Request, ctx: AppContext) {
   const form = await req.formData();
 
   try {
-    const result = await ctx.invoke("vtex/actions/cart/simulation.ts", {
+    const result = await shipping({
       items: props.items,
       postalCode: `${form.get("postalCode") ?? ""}`,
       country: "BRA",
-    }) as SimulationOrderForm | null;
+    }, req, ctx);
 
     return { result };
   } catch {
