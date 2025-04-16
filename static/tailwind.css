@@ -5612,6 +5612,10 @@ footer .container .vtex {
   }
 }
 
+.shipping-form .shipping-form .shipping-form-content {
+  display:none !important;
+}
+
 .invalid\:input-error:invalid {
   --tw-border-opacity: 1;
   border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));

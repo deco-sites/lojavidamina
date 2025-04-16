@@ -571,3 +571,7 @@ footer .container .vtex {
     max-width: 1536px;
   }
 }
+
+.shipping-form .shipping-form .shipping-form-content {
+  display:none !important;
+}
