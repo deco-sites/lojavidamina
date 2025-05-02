@@ -15,12 +15,28 @@
             "__resolveType": "site/sections/Images/Carousel.tsx",
             "images": [
               {
+                "desktop": "https://assets.decocache.com/lojavidamina/a276ac52-c37f-4b7b-a134-471ac01affa7/Banner1-desktop.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/b7f673eb-d249-499e-a9e6-f7d2d34c9d8c/Banner1-mobile.png",
+                "alt": "Dia das mães",
+                "action": {
+                  "href": "/dia-das-maes"
+                }
+              },
+              {
                 "desktop": "https://data.decoassets.com/lojavidamina/befbe50d-818a-4366-b40f-0886dd5eff48/Banner-site-Vidamina01-(1).png",
                 "mobile": "https://data.decoassets.com/lojavidamina/937dcea4-472d-4c2c-ac76-3b9087b44712/1.png",
-                "alt": "#1",
                 "action": {
                   "href": "/products"
-                }
+                },
+                "alt": "#1"
+              },
+              {
+                "desktop": "https://assets.decocache.com/lojavidamina/5e2c9768-de70-40ef-85c8-89a808d3b95c/Banner2-Desktop.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/f71f1439-ea2f-4345-9bd1-89ad0c51680c/Banner2-mobile.png",
+                "action": {
+                  "href": "/dia-das-maes"
+                },
+                "alt": "Dia das mães"
               },
               {
                 "desktop": "https://assets.decocache.com/lojavidamina/688684ea-a83c-4beb-9ffa-58070a6c7241/BANNER_SITE_-_VIDAMINA_-_CAPUCCINO_01.png",
@@ -31,6 +47,14 @@
                 "alt": "Capuccino pré-treino"
               },
               {
+                "desktop": "https://assets.decocache.com/lojavidamina/99adf37d-c4c1-4a80-a5cf-c43fcc5f51d6/Banner3-Desktop.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/560e0906-c0f1-48a4-b370-f8f0a3e40c41/Banner3-mobile.png",
+                "action": {
+                  "href": "/dia-das-maes"
+                },
+                "alt": "Dia das mães"
+              },
+              {
                 "desktop": "https://data.decoassets.com/lojavidamina/1ec03f8d-f206-4fe7-b524-e1b9037cb531/Banner-site-Vidamina02.png",
                 "mobile": "https://data.decoassets.com/lojavidamina/d693de63-fc1c-4396-858b-a7ed3f078cd1/2.png",
                 "action": {
@@ -38,7 +62,7 @@
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/lojavidamina/08506184-adb9-4ff3-ba7e-fb33f90c1d54/BANNER_SITE_-_VIDAMINA_-_CAPUCCINO_02.png",
+                "desktop": "https://assets.decocache.com/lojavidamina/99adf37d-c4c1-4a80-a5cf-c43fcc5f51d6/Banner3-Desktop.png",
                 "mobile": "https://assets.decocache.com/lojavidamina/2e728197-f1ac-4f7f-a94a-7e325597156f/BANNER-SITE---MOBILE---VIDAMINA---CAPUCCINO-02.png",
                 "action": {
                   "href": "http://localhost:10503/capuccino-pre-treino/p?skuId=54"

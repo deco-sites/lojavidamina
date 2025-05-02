@@ -5616,6 +5616,10 @@ footer .container .vtex {
   display:none !important;
 }
 
+.carousel {
+  margin-top:30px !important;
+}
+
 .invalid\:input-error:invalid {
   --tw-border-opacity: 1;
   border-color: var(--fallback-er,oklch(var(--er)/var(--tw-border-opacity)));
