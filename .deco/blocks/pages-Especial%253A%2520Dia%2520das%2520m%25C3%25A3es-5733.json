@@ -1,0 +1,100 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Vida Ativa"
+  },
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "commerce/sections/Seo/SeoPLPV2.tsx",
+        "jsonLD": {
+          "__resolveType": "PLP Loader"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+        "banners": [
+          {
+            "image": {
+              "desktop": "https://assets.decocache.com/lojavidamina/35b50dee-f4ef-4999-a4ab-364bbf53a0e7/AdobeStock_479510230.jpeg",
+              "mobile": "https://assets.decocache.com/lojavidamina/35b50dee-f4ef-4999-a4ab-364bbf53a0e7/AdobeStock_479510230.jpeg"
+            },
+            "title": "Dia das mães",
+            "matcher": "/*"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/SearchResult.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+          "sort": "name:asc",
+          "fuzzy": "automatic",
+          "selectedFacets": [
+            {
+              "key": "productClusterIds",
+              "value": "146"
+            }
+          ],
+          "query": "usevidamina",
+          "count": 8
+        },
+        "layout": {
+          "pagination": "show-more"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Content/Hero.tsx",
+        "image": "https://assets.decocache.com/lojavidamina/d9423f4c-19df-4b8d-ab41-72d5c54efc79/AdobeStock_605115846.jpeg",
+        "description": "Neste Dia das Mães, celebre quem sempre esteve ao seu lado com um presente que cuida de verdade. A linha de suplementos da Vidamina foi criada para apoiar cada fase da vida da mulher com equilíbrio, leveza e ciência — com fórmulas pensadas especialmente para a saúde, energia e longevidade de quem mais importa. Com ativos premium e protocolos assinados por especialistas, cada dose é um gesto de carinho, vitalidade e reconhecimento. Porque retribuir todo esse amor merece um cuidado à altura.",
+        "placement": "right",
+        "title": "<p><span style=\"font-size: 24pt;\" data-mce-style=\"font-size: 24pt;\"><strong><span style=\"color: rgb(0, 0, 0);\" data-mce-style=\"color: rgb(0, 0, 0);\">Mãe é sinônimo de amor, retribua com cuidado e saúde</span></strong></span></p>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Newsletter/Newsletter.tsx",
+        "empty": {
+          "title": "Inscreva-se e recebe novidades exclusivas",
+          "description": "Inscreva-se no formulário ao lado e receba em primeira mão novidades sobre os nossos suplementos:"
+        },
+        "success": {
+          "title": "Obrigado por se inscrever!",
+          "description": "Você agora receberá em tempo real novidades sobre os nossos suplementos!"
+        },
+        "failed": {
+          "title": "Oops!. Something went wrong!",
+          "description": "Something went wrong. Please try again. If the problem persists, please contact us."
+        },
+        "label": "Inscreva-me",
+        "placeholder": "email@exemplo.com"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "name": "Especial: Dia das mães",
+  "path": "/dia-das-maes"
+}

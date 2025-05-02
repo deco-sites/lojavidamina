@@ -67,8 +67,6 @@ function PageResult(props: SectionProps<typeof loader>) {
   });
   const infinite = layout?.pagination !== "pagination";
 
-  console.log("SearcResult props", props);
-
   return (
     <div class="grid grid-flow-row grid-cols-1 place-items-center">
       <div
