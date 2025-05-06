@@ -15,8 +15,8 @@
             "__resolveType": "site/sections/Images/Carousel.tsx",
             "images": [
               {
-                "desktop": "https://assets.decocache.com/lojavidamina/a276ac52-c37f-4b7b-a134-471ac01affa7/Banner1-desktop.png",
-                "mobile": "https://assets.decocache.com/lojavidamina/b7f673eb-d249-499e-a9e6-f7d2d34c9d8c/Banner1-mobile.png",
+                "desktop": "https://assets.decocache.com/lojavidamina/bed47d93-afe0-4088-b8fd-044d970abf25/Banner1-desktop.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/5dc0b27d-73b8-41f6-8430-b8fb6a7fa82a/Banner1-mobile.png",
                 "alt": "Dia das mães",
                 "action": {
                   "href": "/dia-das-maes"
@@ -31,8 +31,8 @@
                 "alt": "#1"
               },
               {
-                "desktop": "https://assets.decocache.com/lojavidamina/5e2c9768-de70-40ef-85c8-89a808d3b95c/Banner2-Desktop.png",
-                "mobile": "https://assets.decocache.com/lojavidamina/f71f1439-ea2f-4345-9bd1-89ad0c51680c/Banner2-mobile.png",
+                "desktop": "https://assets.decocache.com/lojavidamina/bd8b7e29-e996-4173-9a0a-62789c72892a/Banner2-Desktop.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/cf9ef50e-e7e9-410e-9e71-850bd4eeae81/Banner2-mobile.png",
                 "action": {
                   "href": "/dia-das-maes"
                 },
@@ -47,8 +47,8 @@
                 "alt": "Capuccino pré-treino"
               },
               {
-                "desktop": "https://assets.decocache.com/lojavidamina/99adf37d-c4c1-4a80-a5cf-c43fcc5f51d6/Banner3-Desktop.png",
-                "mobile": "https://assets.decocache.com/lojavidamina/560e0906-c0f1-48a4-b370-f8f0a3e40c41/Banner3-mobile.png",
+                "desktop": "https://assets.decocache.com/lojavidamina/7ed35eda-75b9-4da0-870c-2ce342005112/Banner3-Desktop.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/5560e23f-23c0-4352-af34-0ca199dfca13/Banner3-mobile.png",
                 "action": {
                   "href": "/dia-das-maes"
                 },
