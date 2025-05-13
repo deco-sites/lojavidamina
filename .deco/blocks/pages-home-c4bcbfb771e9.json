@@ -15,12 +15,20 @@
             "__resolveType": "site/sections/Images/Carousel.tsx",
             "images": [
               {
+                "desktop": "https://assets.decocache.com/lojavidamina/56db6bdf-c1d0-45a5-b106-bb8355b94b6a/Banner-JorgeValente-desktop3.png",
+                "mobile": "https://assets.decocache.com/lojavidamina/7334bb2f-a96f-41f9-adce-cf6c6c9d2ad7/Banner-JorgeValente-mobile-V3.png",
+                "alt": "Dr Jorge Valente",
+                "action": {
+                  "href": "/linha-dr-jorge-valente"
+                }
+              },
+              {
                 "desktop": "https://assets.decocache.com/lojavidamina/bed47d93-afe0-4088-b8fd-044d970abf25/Banner1-desktop.png",
                 "mobile": "https://assets.decocache.com/lojavidamina/5dc0b27d-73b8-41f6-8430-b8fb6a7fa82a/Banner1-mobile.png",
-                "alt": "Dia das mães",
                 "action": {
                   "href": "/dia-das-maes"
-                }
+                },
+                "alt": "Dia das mães"
               },
               {
                 "desktop": "https://data.decoassets.com/lojavidamina/befbe50d-818a-4366-b40f-0886dd5eff48/Banner-site-Vidamina01-(1).png",
@@ -64,10 +72,10 @@
               {
                 "desktop": "https://assets.decocache.com/lojavidamina/99adf37d-c4c1-4a80-a5cf-c43fcc5f51d6/Banner3-Desktop.png",
                 "mobile": "https://assets.decocache.com/lojavidamina/2e728197-f1ac-4f7f-a94a-7e325597156f/BANNER-SITE---MOBILE---VIDAMINA---CAPUCCINO-02.png",
+                "alt": "Capuccino pré-treino",
                 "action": {
                   "href": "http://localhost:10503/capuccino-pre-treino/p?skuId=54"
-                },
-                "alt": "Capuccino pré-treino"
+                }
               }
             ],
             "preload": false,
