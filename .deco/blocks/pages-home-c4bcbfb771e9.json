@@ -68,14 +68,6 @@
                 "action": {
                   "href": "/category/vida-plena"
                 }
-              },
-              {
-                "desktop": "https://assets.decocache.com/lojavidamina/99adf37d-c4c1-4a80-a5cf-c43fcc5f51d6/Banner3-Desktop.png",
-                "mobile": "https://assets.decocache.com/lojavidamina/2e728197-f1ac-4f7f-a94a-7e325597156f/BANNER-SITE---MOBILE---VIDAMINA---CAPUCCINO-02.png",
-                "alt": "Capuccino pré-treino",
-                "action": {
-                  "href": "http://localhost:10503/capuccino-pre-treino/p?skuId=54"
-                }
               }
             ],
             "preload": false,
